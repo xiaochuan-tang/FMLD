@@ -1,0 +1,45 @@
+batch_size: 2
+iters: 8000
+
+train_dataset:
+  type: Dataset
+  # dataset_root: dataset/dataset_MMLD
+  # train_path: dataset/dataset_MMLD/train_new.txt
+  dataset_root: /home/aiml/MMLD/dataset/luding_newLabel
+  train_path: /home/aiml/MMLD/dataset/luding_newLabel/train.txt
+  num_classes: 2
+  transforms:
+    - type: Resize
+      target_size: [1024,1024]
+    - type: Normalize
+  mode: train
+
+val_dataset:
+  type: Dataset
+  # dataset_root: dataset/dataset_MMLD
+  # val_path: dataset/dataset_MMLD/test_new.txt
+  dataset_root: /home/aiml/MMLD/dataset/luding_newLabel
+  val_path: /home/aiml/MMLD/dataset/luding_newLabel/test.txt
+  num_classes: 2
+  transforms:
+    - type: Resize
+      target_size: [1024,1024]
+    - type: Normalize
+  mode: val
+
+
+optimizer:
+  type: sgd
+  momentum: 0.9
+  weight_decay: 4.0e-5
+
+lr_scheduler:
+  type: PolynomialDecay
+  learning_rate: 0.00006
+  end_lr: 0
+  power: 0.9
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+  coef: [1]

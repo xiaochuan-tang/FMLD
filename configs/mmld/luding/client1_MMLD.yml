@@ -1,0 +1,37 @@
+_base_: '../../_base_/MMLD_DATA_luding.yml'
+
+batch_size: 2
+iters: 10000
+
+model:
+  type: SegFormer_B3_client1
+#  num_classes: 2
+  pretrained: 'output/luding/client1/segformer_opt.pdparams'
+  # pretrained: 'output/pretrained/segformer_opt.pdparams'
+
+#  pretrained: '/home/aiml/MMLD/output_luding/SegFormer_opt_3M_newLabel/best_model/model.pdparams'
+#  /home/aiml/MMLD/output_luding/SegFormer_opt_3M_newLabel/best_model/model.pdparams
+#  pretrained: https://bj.bcebos.com/paddleseg/dygraph/mix_vision_transformer_b3.tar.gz
+#  pretrained: 'output/MMLD_old_FeatureFusion/best_model/model.pdparams'
+
+optimizer:
+  _inherited_: False
+  type: AdamW
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 0.01
+
+lr_scheduler:
+  type: PolynomialDecay
+  learning_rate: 0.00006
+  power: 1
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+  coef: [1]
+
+test_config:
+    is_slide: True
+    crop_size: [1024, 1024]
+    stride: [768, 768]

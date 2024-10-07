@@ -1,0 +1,31 @@
+_base_: '../../_base_/MMLD_DATA_jiuzhaigou.yml'
+
+batch_size: 2
+iters: 10000
+
+model:
+  type: server_MMLD
+  num_classes: 2
+  pretrained: 'output/jiuzhaigou/server/best_model/model.pdparams'
+
+optimizer:
+  _inherited_: False
+  type: AdamW
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 0.01
+
+lr_scheduler:
+  type: PolynomialDecay
+  learning_rate: 0.00006
+  power: 1
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+  coef: [1]
+
+test_config:
+    is_slide: False
+    crop_size: [1024, 1024]
+    stride: [768, 768]

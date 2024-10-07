@@ -1,0 +1,60 @@
+2024-03-19 15:35:55 [INFO]	
+---------------Config Information---------------
+batch_size: 1
+iters: 20000
+loss:
+  coef:
+  - 1
+  types:
+  - type: CrossEntropyLoss
+lr_scheduler:
+  end_lr: 0
+  learning_rate: 6.0e-05
+  power: 1
+  type: PolynomialDecay
+model:
+  num_classes: 2
+  type: server_MMLD
+optimizer:
+  beta1: 0.9
+  beta2: 0.999
+  type: AdamW
+  weight_decay: 0.01
+test_config:
+  crop_size:
+  - 1024
+  - 1024
+  is_slide: false
+  stride:
+  - 768
+  - 768
+train_dataset:
+  dataset_root: dataset/dataset_MMLD
+  mode: train
+  num_classes: 2
+  train_path: dataset/dataset_MMLD/train_new.txt
+  transforms:
+  - target_size:
+    - 1024
+    - 1024
+    type: Resize
+  - type: Normalize
+  type: Dataset
+val_dataset:
+  dataset_root: dataset/dataset_MMLD
+  mode: val
+  num_classes: 2
+  transforms:
+  - target_size:
+    - 1024
+    - 1024
+    type: Resize
+  - type: Normalize
+  type: Dataset
+  val_path: dataset/dataset_MMLD/test_new.txt
+------------------------------------------------
+2024-03-19 15:35:57 [INFO]	Loading pretrained model from output/fed/server/best_model/model.pdparams
+2024-03-19 15:35:57 [INFO]	There are 37/37 variables loaded into server_MMLD.
+2024-03-19 15:35:57 [INFO]	Loaded trained params of model successfully
+waiting connection
+2024-03-19 15:36:04 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...

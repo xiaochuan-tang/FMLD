@@ -1,0 +1,38 @@
+_base_: '../../_base_/MMLD_DATA_jiuzhaigou.yml'
+
+batch_size: 2
+iters: 10000
+
+
+optimizer:
+  _inherited_: False
+  type: AdamW
+  beta1: 0.9
+  beta2: 0.999
+  weight_decay: 0.01
+
+loss:
+  types:
+    - type: CrossEntropyLoss
+    - type: PixelContrastCrossEntropyLoss
+      temperature: 0.1
+      base_temperature: 0.07
+      ignore_index: 255
+      max_samples: 1024
+      max_views: 100
+  coef: [1, 0.1]
+
+model:
+  type: client2_MMLD
+  pretrained: 'output/jiuzhaigou/client2/hrnet_dem.pdparams'
+  # pretrained: 'output/pretrained/hrnet_dem.pdparams'
+
+#  pretrained: '/home/aiml/MMLD/output_luding/HRNet_DEM_newLabel/best_model_dempred724/model.pdparams'
+  #  /home/aiml/MMLD/output_luding/HRNet_DEM_newLabel/best_model_dempred724/model.pdparams
+  backbone:
+    type: HRNet_W48
+#    pretrained: https://bj.bcebos.com/paddleseg/dygraph/hrnet_w48_ssld.tar.gz
+  num_classes: 2
+  in_channels: 720
+  drop_prob: 0.1
+  proj_dim: 720

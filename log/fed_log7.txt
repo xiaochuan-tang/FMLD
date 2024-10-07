@@ -1,0 +1,73 @@
+waiting connection
+2024-03-30 16:02:17 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.4.0-150-generic-x86_64-with-glibc2.17
+Python: 3.8.16 (default, Jan 17 2023, 23:13:24) [GCC 11.2.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.2.r11.2/compiler.29373293_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: None
+GPU: ['GPU 0: A100 80GB']
+GCC: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+PaddlePaddle: 2.2.2
+OpenCV: 4.5.5
+------------------------------------------------
+2024-03-30 16:02:17 [INFO]	
+---------------Config Information---------------
+batch_size: 1
+iters: 20000
+loss:
+  coef:
+  - 1
+  types:
+  - ignore_index: 255
+    type: CrossEntropyLoss
+lr_scheduler:
+  end_lr: 0
+  learning_rate: 6.0e-05
+  power: 1
+  type: PolynomialDecay
+model:
+  num_classes: 2
+  type: server_MMLD
+optimizer:
+  beta1: 0.9
+  beta2: 0.999
+  type: AdamW
+  weight_decay: 0.01
+test_config:
+  crop_size:
+  - 1024
+  - 1024
+  is_slide: false
+  stride:
+  - 768
+  - 768
+train_dataset:
+  dataset_root: dataset/dataset_MMLD
+  mode: train
+  num_classes: 2
+  train_path: dataset/dataset_MMLD/train_new.txt
+  transforms:
+  - target_size:
+    - 1024
+    - 1024
+    type: Resize
+  - type: Normalize
+  type: Dataset
+val_dataset:
+  dataset_root: dataset/dataset_MMLD
+  mode: val
+  num_classes: 2
+  transforms:
+  - target_size:
+    - 1024
+    - 1024
+    type: Resize
+  - type: Normalize
+  type: Dataset
+  val_path: dataset/dataset_MMLD/test_new.txt
+------------------------------------------------
+2024-03-30 16:02:33 [INFO]	[TRAIN] epoch: 1, iter: 50/20000, loss: 0.7043, lr: 0.000060, batch_cost: 0.3297, reader_cost: 0.00937, ips: 3.0332 samples/sec | ETA 01:49:37
+2024-03-30 16:02:46 [INFO]	[TRAIN] epoch: 1, iter: 100/20000, loss: 0.6842, lr: 0.000060, batch_cost: 0.2521, reader_cost: 0.00009, ips: 3.9665 samples/sec | ETA 01:23:37

@@ -1,0 +1,84 @@
+waiting connection
+2024-04-03 21:10:10 [INFO]	
+------------Environment Information-------------
+platform: Linux-5.4.0-150-generic-x86_64-with-glibc2.17
+Python: 3.8.16 (default, Jan 17 2023, 23:13:24) [GCC 11.2.0]
+Paddle compiled with cuda: True
+NVCC: Build cuda_11.2.r11.2/compiler.29373293_0
+cudnn: 8.1
+GPUs used: 1
+CUDA_VISIBLE_DEVICES: None
+GPU: ['GPU 0: A100 80GB']
+GCC: gcc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0
+PaddlePaddle: 2.2.2
+OpenCV: 4.5.5
+------------------------------------------------
+2024-04-03 21:10:10 [INFO]	
+---------------Config Information---------------
+batch_size: 2
+iters: 10000
+loss:
+  coef:
+  - 1
+  types:
+  - ignore_index: 255
+    type: CrossEntropyLoss
+lr_scheduler:
+  end_lr: 0
+  learning_rate: 6.0e-05
+  power: 1
+  type: PolynomialDecay
+model:
+  num_classes: 2
+  type: server_MMLD
+optimizer:
+  beta1: 0.9
+  beta2: 0.999
+  type: AdamW
+  weight_decay: 0.01
+test_config:
+  crop_size:
+  - 1024
+  - 1024
+  is_slide: true
+  stride:
+  - 768
+  - 768
+train_dataset:
+  dataset_root: dataset/dataset_MMLD
+  mode: train
+  num_classes: 2
+  train_path: dataset/dataset_MMLD/train_new.txt
+  transforms:
+  - target_size:
+    - 1024
+    - 1024
+    type: Resize
+  - type: Normalize
+  type: Dataset
+val_dataset:
+  dataset_root: dataset/dataset_MMLD
+  mode: val
+  num_classes: 2
+  transforms:
+  - target_size:
+    - 1024
+    - 1024
+    type: Resize
+  - type: Normalize
+  type: Dataset
+  val_path: dataset/dataset_MMLD/test_new.txt
+------------------------------------------------
+2024-04-03 21:11:05 [INFO]	[TRAIN] epoch: 1, iter: 10/10000, loss: 0.8233, lr: 0.000060, batch_cost: 5.5168, reader_cost: 0.06086, ips: 0.3625 samples/sec | ETA 15:18:33
+2024-04-03 21:11:05 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-04-03 21:19:53 [INFO]	Client1: Using the Segformer model to process opt data
+2024-04-03 21:19:53 [INFO]	[EVAL] #Images: 670 mIoU: 0.4233 Acc: 0.7791 Pre:0.5251 Rec:0.6122 F1:0.5033 Kappa: 0.0714,poacc:0.7791
+2024-04-03 21:19:53 [INFO]	[EVAL] Class IoU: 
+[0.7753 0.0714]
+2024-04-03 21:19:53 [INFO]	[EVAL] Class Pre: 
+[0.9715 0.0788]
+2024-04-03 21:19:53 [INFO]	[EVAL] Class Rec: 
+[0.7934 0.4311]
+2024-04-03 21:19:53 [INFO]	[EVAL] Class F1: 
+[0.8734 0.1332]
+2024-04-03 21:19:53 [INFO]	[EVAL] The model with the best validation mIoU (0.4233) and best F1 (0.1332) was saved at iter 10.

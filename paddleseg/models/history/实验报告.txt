@@ -1,0 +1,13 @@
+实验一：运行原项目，查看配置文件及网络结构、
+
+实验二：处理dataset_MMLD文件，修改MMLD多模态数据预处理流程，添加了sar影像输入
+       将sar影像数据的加入network中，仿照已有流程，评估sar影像是否对实验有正向影响
+
+实验三：三通道数据（hillshade、opt）、单通道数据（dem、sar）先分别进行Channel Attention进行特征融合。
+       在依次进行Transformer encoder，以及后面的再次特征融合。
+
+实验四：分别在aistudio上用segformer模型只训练sar影像，在MMLD上用Generator模型及dem的预训练模型训练sar影像
+
+实验五：在MMLD上用Generator分别训练dem以及sar，其他步骤保持不变。
+
+实验六：在MMLD上用segformer训练hillshade，Generator分别训练dem以及sar，其他步骤保持不变。

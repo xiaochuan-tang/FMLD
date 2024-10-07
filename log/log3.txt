@@ -1,0 +1,1702 @@
+waiting connection
+2024-03-08 14:27:02 [INFO]	The subnetwork model is trained, and the server network is trained next.
+2024-03-08 14:28:10 [INFO]	[TRAIN] epoch: 1, iter: 50/20000, loss: 0.3838, lr: 0.000060, batch_cost: 1.2819, reader_cost: 0.01179, ips: 0.7801 samples/sec | ETA 07:06:14
+2024-03-08 14:29:08 [INFO]	[TRAIN] epoch: 1, iter: 100/20000, loss: 0.2121, lr: 0.000060, batch_cost: 1.1698, reader_cost: 0.00009, ips: 0.8548 samples/sec | ETA 06:27:59
+2024-03-08 14:30:06 [INFO]	[TRAIN] epoch: 1, iter: 150/20000, loss: 0.1649, lr: 0.000060, batch_cost: 1.1612, reader_cost: 0.00009, ips: 0.8612 samples/sec | ETA 06:24:10
+2024-03-08 14:31:03 [INFO]	[TRAIN] epoch: 1, iter: 200/20000, loss: 0.1540, lr: 0.000059, batch_cost: 1.1257, reader_cost: 0.00009, ips: 0.8883 samples/sec | ETA 06:11:29
+2024-03-08 14:31:03 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 14:42:07 [INFO]	[EVAL] #Images: 670 mIoU: 0.5487 Acc: 0.6942 Pre:0.6942 Rec:0.5815 F1:0.6117 Kappa: 0.2274,poacc:0.9581
+2024-03-08 14:42:07 [INFO]	[EVAL] Class IoU: 
+[0.9578 0.1396]
+2024-03-08 14:42:07 [INFO]	[EVAL] Class Acc: 
+[0.9669 0.4215]
+2024-03-08 14:42:07 [INFO]	[EVAL] Class Pre: 
+[0.9669 0.4215]
+2024-03-08 14:42:07 [INFO]	[EVAL] Class Rec: 
+[0.9903 0.1727]
+2024-03-08 14:42:07 [INFO]	[EVAL] Class F1: 
+[0.9785 0.245 ]
+2024-03-08 14:42:07 [INFO]	[EVAL] The model with the best validation mIoU (0.5487) and best F1 (0.2450) was saved at iter 200.
+2024-03-08 14:42:59 [INFO]	[TRAIN] epoch: 1, iter: 250/20000, loss: 0.1419, lr: 0.000059, batch_cost: 1.0393, reader_cost: 0.00008, ips: 0.9622 samples/sec | ETA 05:42:05
+2024-03-08 14:43:52 [INFO]	[TRAIN] epoch: 1, iter: 300/20000, loss: 0.1425, lr: 0.000059, batch_cost: 1.0516, reader_cost: 0.00009, ips: 0.9510 samples/sec | ETA 05:45:15
+2024-03-08 14:44:45 [INFO]	[TRAIN] epoch: 1, iter: 350/20000, loss: 0.1357, lr: 0.000059, batch_cost: 1.0505, reader_cost: 0.00009, ips: 0.9520 samples/sec | ETA 05:44:01
+2024-03-08 14:45:38 [INFO]	[TRAIN] epoch: 1, iter: 400/20000, loss: 0.1420, lr: 0.000059, batch_cost: 1.0651, reader_cost: 0.00009, ips: 0.9389 samples/sec | ETA 05:47:55
+2024-03-08 14:45:38 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 14:56:26 [INFO]	[EVAL] #Images: 670 mIoU: 0.5569 Acc: 0.6675 Pre:0.6675 Rec:0.6027 F1:0.6261 Kappa: 0.2536,poacc:0.9543
+2024-03-08 14:56:26 [INFO]	[EVAL] Class IoU: 
+[0.9539 0.1599]
+2024-03-08 14:56:26 [INFO]	[EVAL] Class Acc: 
+[0.9686 0.3663]
+2024-03-08 14:56:26 [INFO]	[EVAL] Class Pre: 
+[0.9686 0.3663]
+2024-03-08 14:56:26 [INFO]	[EVAL] Class Rec: 
+[0.9843 0.2211]
+2024-03-08 14:56:26 [INFO]	[EVAL] Class F1: 
+[0.9764 0.2757]
+2024-03-08 14:56:26 [INFO]	[EVAL] The model with the best validation mIoU (0.5569) and best F1 (0.2757) was saved at iter 400.
+2024-03-08 14:57:17 [INFO]	[TRAIN] epoch: 1, iter: 450/20000, loss: 0.1276, lr: 0.000059, batch_cost: 1.0183, reader_cost: 0.00008, ips: 0.9820 samples/sec | ETA 05:31:47
+2024-03-08 14:58:09 [INFO]	[TRAIN] epoch: 1, iter: 500/20000, loss: 0.1142, lr: 0.000059, batch_cost: 1.0240, reader_cost: 0.00009, ips: 0.9766 samples/sec | ETA 05:32:47
+2024-03-08 14:58:59 [INFO]	[TRAIN] epoch: 1, iter: 550/20000, loss: 0.1283, lr: 0.000058, batch_cost: 1.0172, reader_cost: 0.00009, ips: 0.9831 samples/sec | ETA 05:29:45
+2024-03-08 14:59:50 [INFO]	[TRAIN] epoch: 1, iter: 600/20000, loss: 0.1228, lr: 0.000058, batch_cost: 1.0030, reader_cost: 0.00009, ips: 0.9970 samples/sec | ETA 05:24:18
+2024-03-08 14:59:50 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 15:10:35 [INFO]	[EVAL] #Images: 670 mIoU: 0.5539 Acc: 0.6761 Pre:0.6761 Rec:0.5941 F1:0.6208 Kappa: 0.2438,poacc:0.9559
+2024-03-08 15:10:35 [INFO]	[EVAL] Class IoU: 
+[0.9555 0.1523]
+2024-03-08 15:10:35 [INFO]	[EVAL] Class Acc: 
+[0.9679 0.3844]
+2024-03-08 15:10:35 [INFO]	[EVAL] Class Pre: 
+[0.9679 0.3844]
+2024-03-08 15:10:35 [INFO]	[EVAL] Class Rec: 
+[0.9868 0.2014]
+2024-03-08 15:10:35 [INFO]	[EVAL] Class F1: 
+[0.9772 0.2643]
+2024-03-08 15:10:36 [INFO]	[EVAL] The model with the best validation mIoU (0.5569) and best F1 (0.2757) was saved at iter 400.
+2024-03-08 15:11:28 [INFO]	[TRAIN] epoch: 1, iter: 650/20000, loss: 0.1176, lr: 0.000058, batch_cost: 1.0400, reader_cost: 0.00009, ips: 0.9615 samples/sec | ETA 05:35:24
+2024-03-08 15:12:19 [INFO]	[TRAIN] epoch: 1, iter: 700/20000, loss: 0.1221, lr: 0.000058, batch_cost: 1.0245, reader_cost: 0.00009, ips: 0.9760 samples/sec | ETA 05:29:33
+2024-03-08 15:13:09 [INFO]	[TRAIN] epoch: 1, iter: 750/20000, loss: 0.1242, lr: 0.000058, batch_cost: 1.0128, reader_cost: 0.00009, ips: 0.9874 samples/sec | ETA 05:24:56
+2024-03-08 15:14:02 [INFO]	[TRAIN] epoch: 1, iter: 800/20000, loss: 0.1158, lr: 0.000058, batch_cost: 1.0534, reader_cost: 0.00009, ips: 0.9493 samples/sec | ETA 05:37:04
+2024-03-08 15:14:02 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 15:24:57 [INFO]	[EVAL] #Images: 670 mIoU: 0.5526 Acc: 0.6726 Pre:0.6726 Rec:0.5929 F1:0.6190 Kappa: 0.2402,poacc:0.9555
+2024-03-08 15:24:57 [INFO]	[EVAL] Class IoU: 
+[0.9552 0.15  ]
+2024-03-08 15:24:57 [INFO]	[EVAL] Class Acc: 
+[0.9678 0.3775]
+2024-03-08 15:24:57 [INFO]	[EVAL] Class Pre: 
+[0.9678 0.3775]
+2024-03-08 15:24:57 [INFO]	[EVAL] Class Rec: 
+[0.9865 0.1993]
+2024-03-08 15:24:57 [INFO]	[EVAL] Class F1: 
+[0.9771 0.2609]
+2024-03-08 15:24:57 [INFO]	[EVAL] The model with the best validation mIoU (0.5569) and best F1 (0.2757) was saved at iter 400.
+2024-03-08 15:25:49 [INFO]	[TRAIN] epoch: 1, iter: 850/20000, loss: 0.1245, lr: 0.000057, batch_cost: 1.0212, reader_cost: 0.00009, ips: 0.9792 samples/sec | ETA 05:25:56
+2024-03-08 15:26:40 [INFO]	[TRAIN] epoch: 1, iter: 900/20000, loss: 0.1145, lr: 0.000057, batch_cost: 1.0234, reader_cost: 0.00008, ips: 0.9771 samples/sec | ETA 05:25:47
+2024-03-08 15:27:31 [INFO]	[TRAIN] epoch: 1, iter: 950/20000, loss: 0.1087, lr: 0.000057, batch_cost: 1.0258, reader_cost: 0.00009, ips: 0.9748 samples/sec | ETA 05:25:41
+2024-03-08 15:28:23 [INFO]	[TRAIN] epoch: 1, iter: 1000/20000, loss: 0.1207, lr: 0.000057, batch_cost: 1.0348, reader_cost: 0.00011, ips: 0.9663 samples/sec | ETA 05:27:42
+2024-03-08 15:28:23 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 15:39:15 [INFO]	[EVAL] #Images: 670 mIoU: 0.5582 Acc: 0.6648 Pre:0.6648 Rec:0.6064 F1:0.6283 Kappa: 0.2578,poacc:0.9537
+2024-03-08 15:39:15 [INFO]	[EVAL] Class IoU: 
+[0.9532 0.1631]
+2024-03-08 15:39:15 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.3608]
+2024-03-08 15:39:15 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.3608]
+2024-03-08 15:39:15 [INFO]	[EVAL] Class Rec: 
+[0.9833 0.2295]
+2024-03-08 15:39:15 [INFO]	[EVAL] Class F1: 
+[0.9761 0.2805]
+2024-03-08 15:39:15 [INFO]	[EVAL] The model with the best validation mIoU (0.5582) and best F1 (0.2805) was saved at iter 1000.
+2024-03-08 15:40:08 [INFO]	[TRAIN] epoch: 1, iter: 1050/20000, loss: 0.1088, lr: 0.000057, batch_cost: 1.0484, reader_cost: 0.00009, ips: 0.9538 samples/sec | ETA 05:31:07
+2024-03-08 15:41:01 [INFO]	[TRAIN] epoch: 1, iter: 1100/20000, loss: 0.1083, lr: 0.000057, batch_cost: 1.0567, reader_cost: 0.00008, ips: 0.9463 samples/sec | ETA 05:32:51
+2024-03-08 15:41:53 [INFO]	[TRAIN] epoch: 1, iter: 1150/20000, loss: 0.1097, lr: 0.000057, batch_cost: 1.0582, reader_cost: 0.00009, ips: 0.9450 samples/sec | ETA 05:32:26
+2024-03-08 15:42:45 [INFO]	[TRAIN] epoch: 1, iter: 1200/20000, loss: 0.1139, lr: 0.000056, batch_cost: 1.0374, reader_cost: 0.00009, ips: 0.9639 samples/sec | ETA 05:25:03
+2024-03-08 15:42:45 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 15:53:38 [INFO]	[EVAL] #Images: 670 mIoU: 0.5584 Acc: 0.6693 Pre:0.6693 Rec:0.6048 F1:0.6282 Kappa: 0.2578,poacc:0.9544
+2024-03-08 15:53:38 [INFO]	[EVAL] Class IoU: 
+[0.954  0.1628]
+2024-03-08 15:53:38 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.3698]
+2024-03-08 15:53:38 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.3698]
+2024-03-08 15:53:38 [INFO]	[EVAL] Class Rec: 
+[0.9843 0.2253]
+2024-03-08 15:53:38 [INFO]	[EVAL] Class F1: 
+[0.9764 0.28  ]
+2024-03-08 15:53:39 [INFO]	[EVAL] The model with the best validation mIoU (0.5582) and best F1 (0.2805) was saved at iter 1000.
+2024-03-08 15:54:31 [INFO]	[TRAIN] epoch: 1, iter: 1250/20000, loss: 0.1128, lr: 0.000056, batch_cost: 1.0491, reader_cost: 0.00008, ips: 0.9532 samples/sec | ETA 05:27:51
+2024-03-08 15:55:24 [INFO]	[TRAIN] epoch: 1, iter: 1300/20000, loss: 0.1053, lr: 0.000056, batch_cost: 1.0533, reader_cost: 0.00009, ips: 0.9494 samples/sec | ETA 05:28:17
+2024-03-08 15:56:16 [INFO]	[TRAIN] epoch: 1, iter: 1350/20000, loss: 0.1221, lr: 0.000056, batch_cost: 1.0513, reader_cost: 0.00008, ips: 0.9512 samples/sec | ETA 05:26:47
+2024-03-08 15:57:10 [INFO]	[TRAIN] epoch: 1, iter: 1400/20000, loss: 0.1112, lr: 0.000056, batch_cost: 1.0706, reader_cost: 0.00009, ips: 0.9341 samples/sec | ETA 05:31:52
+2024-03-08 15:57:10 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 16:08:07 [INFO]	[EVAL] #Images: 670 mIoU: 0.5576 Acc: 0.6706 Pre:0.6706 Rec:0.6026 F1:0.6268 Kappa: 0.2553,poacc:0.9547
+2024-03-08 16:08:07 [INFO]	[EVAL] Class IoU: 
+[0.9543 0.1608]
+2024-03-08 16:08:07 [INFO]	[EVAL] Class Acc: 
+[0.9686 0.3726]
+2024-03-08 16:08:07 [INFO]	[EVAL] Class Pre: 
+[0.9686 0.3726]
+2024-03-08 16:08:07 [INFO]	[EVAL] Class Rec: 
+[0.9848 0.2205]
+2024-03-08 16:08:07 [INFO]	[EVAL] Class F1: 
+[0.9766 0.2771]
+2024-03-08 16:08:07 [INFO]	[EVAL] The model with the best validation mIoU (0.5582) and best F1 (0.2805) was saved at iter 1000.
+2024-03-08 16:09:00 [INFO]	[TRAIN] epoch: 1, iter: 1450/20000, loss: 0.1207, lr: 0.000056, batch_cost: 1.0641, reader_cost: 0.00009, ips: 0.9397 samples/sec | ETA 05:28:59
+2024-03-08 16:09:54 [INFO]	[TRAIN] epoch: 1, iter: 1500/20000, loss: 0.1079, lr: 0.000056, batch_cost: 1.0685, reader_cost: 0.00008, ips: 0.9359 samples/sec | ETA 05:29:27
+2024-03-08 16:10:47 [INFO]	[TRAIN] epoch: 1, iter: 1550/20000, loss: 0.1223, lr: 0.000055, batch_cost: 1.0544, reader_cost: 0.00009, ips: 0.9484 samples/sec | ETA 05:24:13
+2024-03-08 16:11:39 [INFO]	[TRAIN] epoch: 1, iter: 1600/20000, loss: 0.1155, lr: 0.000055, batch_cost: 1.0547, reader_cost: 0.00009, ips: 0.9482 samples/sec | ETA 05:23:25
+2024-03-08 16:11:39 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 16:22:36 [INFO]	[EVAL] #Images: 670 mIoU: 0.5610 Acc: 0.6750 Pre:0.6750 Rec:0.6073 F1:0.6318 Kappa: 0.2650,poacc:0.9550
+2024-03-08 16:22:36 [INFO]	[EVAL] Class IoU: 
+[0.9546 0.1674]
+2024-03-08 16:22:36 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.3811]
+2024-03-08 16:22:36 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.3811]
+2024-03-08 16:22:36 [INFO]	[EVAL] Class Rec: 
+[0.9847 0.2299]
+2024-03-08 16:22:36 [INFO]	[EVAL] Class F1: 
+[0.9768 0.2868]
+2024-03-08 16:22:37 [INFO]	[EVAL] The model with the best validation mIoU (0.5610) and best F1 (0.2868) was saved at iter 1600.
+2024-03-08 16:23:30 [INFO]	[TRAIN] epoch: 1, iter: 1650/20000, loss: 0.1095, lr: 0.000055, batch_cost: 1.0734, reader_cost: 0.00009, ips: 0.9316 samples/sec | ETA 05:28:16
+2024-03-08 16:24:23 [INFO]	[TRAIN] epoch: 1, iter: 1700/20000, loss: 0.0974, lr: 0.000055, batch_cost: 1.0522, reader_cost: 0.00009, ips: 0.9503 samples/sec | ETA 05:20:56
+2024-03-08 16:25:16 [INFO]	[TRAIN] epoch: 1, iter: 1750/20000, loss: 0.1060, lr: 0.000055, batch_cost: 1.0670, reader_cost: 0.00011, ips: 0.9372 samples/sec | ETA 05:24:32
+2024-03-08 16:26:09 [INFO]	[TRAIN] epoch: 1, iter: 1800/20000, loss: 0.1071, lr: 0.000055, batch_cost: 1.0629, reader_cost: 0.00008, ips: 0.9408 samples/sec | ETA 05:22:24
+2024-03-08 16:26:09 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 16:37:07 [INFO]	[EVAL] #Images: 670 mIoU: 0.5605 Acc: 0.6767 Pre:0.6767 Rec:0.6058 F1:0.6310 Kappa: 0.2635,poacc:0.9553
+2024-03-08 16:37:07 [INFO]	[EVAL] Class IoU: 
+[0.9549 0.1662]
+2024-03-08 16:37:07 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.3845]
+2024-03-08 16:37:07 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.3845]
+2024-03-08 16:37:07 [INFO]	[EVAL] Class Rec: 
+[0.9851 0.2264]
+2024-03-08 16:37:07 [INFO]	[EVAL] Class F1: 
+[0.9769 0.285 ]
+2024-03-08 16:37:07 [INFO]	[EVAL] The model with the best validation mIoU (0.5610) and best F1 (0.2868) was saved at iter 1600.
+2024-03-08 16:38:00 [INFO]	[TRAIN] epoch: 1, iter: 1850/20000, loss: 0.1058, lr: 0.000054, batch_cost: 1.0632, reader_cost: 0.00009, ips: 0.9406 samples/sec | ETA 05:21:36
+2024-03-08 16:38:53 [INFO]	[TRAIN] epoch: 1, iter: 1900/20000, loss: 0.1017, lr: 0.000054, batch_cost: 1.0469, reader_cost: 0.00009, ips: 0.9552 samples/sec | ETA 05:15:49
+2024-03-08 16:39:46 [INFO]	[TRAIN] epoch: 1, iter: 1950/20000, loss: 0.1090, lr: 0.000054, batch_cost: 1.0583, reader_cost: 0.00009, ips: 0.9449 samples/sec | ETA 05:18:22
+2024-03-08 16:40:39 [INFO]	[TRAIN] epoch: 1, iter: 2000/20000, loss: 0.0993, lr: 0.000054, batch_cost: 1.0703, reader_cost: 0.00008, ips: 0.9343 samples/sec | ETA 05:21:05
+2024-03-08 16:40:39 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 16:51:36 [INFO]	[EVAL] #Images: 670 mIoU: 0.5602 Acc: 0.6802 Pre:0.6802 Rec:0.6038 F1:0.6302 Kappa: 0.2622,poacc:0.9558
+2024-03-08 16:51:36 [INFO]	[EVAL] Class IoU: 
+[0.9554 0.165 ]
+2024-03-08 16:51:36 [INFO]	[EVAL] Class Acc: 
+[0.9687 0.3918]
+2024-03-08 16:51:36 [INFO]	[EVAL] Class Pre: 
+[0.9687 0.3918]
+2024-03-08 16:51:36 [INFO]	[EVAL] Class Rec: 
+[0.9859 0.2217]
+2024-03-08 16:51:36 [INFO]	[EVAL] Class F1: 
+[0.9772 0.2832]
+2024-03-08 16:51:36 [INFO]	[EVAL] The model with the best validation mIoU (0.5610) and best F1 (0.2868) was saved at iter 1600.
+2024-03-08 16:52:30 [INFO]	[TRAIN] epoch: 1, iter: 2050/20000, loss: 0.1133, lr: 0.000054, batch_cost: 1.0646, reader_cost: 0.00008, ips: 0.9393 samples/sec | ETA 05:18:30
+2024-03-08 16:53:24 [INFO]	[TRAIN] epoch: 1, iter: 2100/20000, loss: 0.1111, lr: 0.000054, batch_cost: 1.0948, reader_cost: 0.00008, ips: 0.9134 samples/sec | ETA 05:26:37
+2024-03-08 16:54:19 [INFO]	[TRAIN] epoch: 1, iter: 2150/20000, loss: 0.1120, lr: 0.000054, batch_cost: 1.0976, reader_cost: 0.00008, ips: 0.9110 samples/sec | ETA 05:26:32
+2024-03-08 16:55:13 [INFO]	[TRAIN] epoch: 1, iter: 2200/20000, loss: 0.1111, lr: 0.000053, batch_cost: 1.0736, reader_cost: 0.00008, ips: 0.9314 samples/sec | ETA 05:18:30
+2024-03-08 16:55:13 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 17:05:33 [INFO]	[EVAL] #Images: 670 mIoU: 0.5654 Acc: 0.6775 Pre:0.6775 Rec:0.6146 F1:0.6382 Kappa: 0.2777,poacc:0.9549
+2024-03-08 17:05:33 [INFO]	[EVAL] Class IoU: 
+[0.9545 0.1763]
+2024-03-08 17:05:33 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3854]
+2024-03-08 17:05:33 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3854]
+2024-03-08 17:05:33 [INFO]	[EVAL] Class Rec: 
+[0.984  0.2453]
+2024-03-08 17:05:33 [INFO]	[EVAL] Class F1: 
+[0.9767 0.2998]
+2024-03-08 17:05:33 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 17:06:25 [INFO]	[TRAIN] epoch: 1, iter: 2250/20000, loss: 0.0987, lr: 0.000053, batch_cost: 1.0441, reader_cost: 0.00009, ips: 0.9578 samples/sec | ETA 05:08:52
+2024-03-08 17:07:19 [INFO]	[TRAIN] epoch: 1, iter: 2300/20000, loss: 0.0985, lr: 0.000053, batch_cost: 1.0826, reader_cost: 0.00008, ips: 0.9237 samples/sec | ETA 05:19:22
+2024-03-08 17:08:13 [INFO]	[TRAIN] epoch: 1, iter: 2350/20000, loss: 0.1035, lr: 0.000053, batch_cost: 1.0726, reader_cost: 0.00010, ips: 0.9323 samples/sec | ETA 05:15:31
+2024-03-08 17:09:07 [INFO]	[TRAIN] epoch: 1, iter: 2400/20000, loss: 0.0995, lr: 0.000053, batch_cost: 1.0682, reader_cost: 0.00010, ips: 0.9362 samples/sec | ETA 05:13:19
+2024-03-08 17:09:07 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 17:20:21 [INFO]	[EVAL] #Images: 670 mIoU: 0.5652 Acc: 0.6810 Pre:0.6810 Rec:0.6127 F1:0.6377 Kappa: 0.2768,poacc:0.9554
+2024-03-08 17:20:21 [INFO]	[EVAL] Class IoU: 
+[0.955  0.1754]
+2024-03-08 17:20:21 [INFO]	[EVAL] Class Acc: 
+[0.9694 0.3926]
+2024-03-08 17:20:21 [INFO]	[EVAL] Class Pre: 
+[0.9694 0.3926]
+2024-03-08 17:20:21 [INFO]	[EVAL] Class Rec: 
+[0.9847 0.2407]
+2024-03-08 17:20:21 [INFO]	[EVAL] Class F1: 
+[0.977  0.2984]
+2024-03-08 17:20:21 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 17:21:18 [INFO]	[TRAIN] epoch: 1, iter: 2450/20000, loss: 0.1051, lr: 0.000053, batch_cost: 1.1270, reader_cost: 0.00009, ips: 0.8873 samples/sec | ETA 05:29:39
+2024-03-08 17:22:13 [INFO]	[TRAIN] epoch: 1, iter: 2500/20000, loss: 0.1035, lr: 0.000053, batch_cost: 1.1064, reader_cost: 0.00009, ips: 0.9038 samples/sec | ETA 05:22:42
+2024-03-08 17:23:08 [INFO]	[TRAIN] epoch: 2, iter: 2550/20000, loss: 0.1125, lr: 0.000052, batch_cost: 1.1064, reader_cost: 0.00495, ips: 0.9038 samples/sec | ETA 05:21:47
+2024-03-08 17:24:03 [INFO]	[TRAIN] epoch: 2, iter: 2600/20000, loss: 0.1005, lr: 0.000052, batch_cost: 1.0998, reader_cost: 0.00009, ips: 0.9092 samples/sec | ETA 05:18:57
+2024-03-08 17:24:03 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 17:35:05 [INFO]	[EVAL] #Images: 670 mIoU: 0.5646 Acc: 0.6668 Pre:0.6668 Rec:0.6187 F1:0.6380 Kappa: 0.2768,poacc:0.9531
+2024-03-08 17:35:05 [INFO]	[EVAL] Class IoU: 
+[0.9526 0.1767]
+2024-03-08 17:35:05 [INFO]	[EVAL] Class Acc: 
+[0.9699 0.3638]
+2024-03-08 17:35:05 [INFO]	[EVAL] Class Pre: 
+[0.9699 0.3638]
+2024-03-08 17:35:05 [INFO]	[EVAL] Class Rec: 
+[0.9817 0.2556]
+2024-03-08 17:35:05 [INFO]	[EVAL] Class F1: 
+[0.9757 0.3003]
+2024-03-08 17:35:05 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 17:35:59 [INFO]	[TRAIN] epoch: 2, iter: 2650/20000, loss: 0.0959, lr: 0.000052, batch_cost: 1.0646, reader_cost: 0.00010, ips: 0.9393 samples/sec | ETA 05:07:50
+2024-03-08 17:36:51 [INFO]	[TRAIN] epoch: 2, iter: 2700/20000, loss: 0.1016, lr: 0.000052, batch_cost: 1.0400, reader_cost: 0.00010, ips: 0.9615 samples/sec | ETA 04:59:52
+2024-03-08 17:37:44 [INFO]	[TRAIN] epoch: 2, iter: 2750/20000, loss: 0.0982, lr: 0.000052, batch_cost: 1.0747, reader_cost: 0.00010, ips: 0.9305 samples/sec | ETA 05:08:57
+2024-03-08 17:38:38 [INFO]	[TRAIN] epoch: 2, iter: 2800/20000, loss: 0.0990, lr: 0.000052, batch_cost: 1.0758, reader_cost: 0.00009, ips: 0.9296 samples/sec | ETA 05:08:23
+2024-03-08 17:38:38 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 17:49:40 [INFO]	[EVAL] #Images: 670 mIoU: 0.5619 Acc: 0.6703 Pre:0.6703 Rec:0.6112 F1:0.6335 Kappa: 0.2682,poacc:0.9541
+2024-03-08 17:49:40 [INFO]	[EVAL] Class IoU: 
+[0.9537 0.1701]
+2024-03-08 17:49:40 [INFO]	[EVAL] Class Acc: 
+[0.9693 0.3713]
+2024-03-08 17:49:40 [INFO]	[EVAL] Class Pre: 
+[0.9693 0.3713]
+2024-03-08 17:49:40 [INFO]	[EVAL] Class Rec: 
+[0.9834 0.239 ]
+2024-03-08 17:49:40 [INFO]	[EVAL] Class F1: 
+[0.9763 0.2908]
+2024-03-08 17:49:40 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 17:50:34 [INFO]	[TRAIN] epoch: 2, iter: 2850/20000, loss: 0.1091, lr: 0.000051, batch_cost: 1.0836, reader_cost: 0.00009, ips: 0.9228 samples/sec | ETA 05:09:43
+2024-03-08 17:51:28 [INFO]	[TRAIN] epoch: 2, iter: 2900/20000, loss: 0.1100, lr: 0.000051, batch_cost: 1.0765, reader_cost: 0.00009, ips: 0.9290 samples/sec | ETA 05:06:47
+2024-03-08 17:52:21 [INFO]	[TRAIN] epoch: 2, iter: 2950/20000, loss: 0.1026, lr: 0.000051, batch_cost: 1.0702, reader_cost: 0.00010, ips: 0.9344 samples/sec | ETA 05:04:07
+2024-03-08 17:53:14 [INFO]	[TRAIN] epoch: 2, iter: 3000/20000, loss: 0.1031, lr: 0.000051, batch_cost: 1.0593, reader_cost: 0.00010, ips: 0.9440 samples/sec | ETA 05:00:08
+2024-03-08 17:53:14 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 18:04:12 [INFO]	[EVAL] #Images: 670 mIoU: 0.5633 Acc: 0.6875 Pre:0.6875 Rec:0.6067 F1:0.6344 Kappa: 0.2707,poacc:0.9565
+2024-03-08 18:04:12 [INFO]	[EVAL] Class IoU: 
+[0.9561 0.1705]
+2024-03-08 18:04:12 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.4062]
+2024-03-08 18:04:12 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.4062]
+2024-03-08 18:04:12 [INFO]	[EVAL] Class Rec: 
+[0.9864 0.2271]
+2024-03-08 18:04:12 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2913]
+2024-03-08 18:04:13 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 18:05:07 [INFO]	[TRAIN] epoch: 2, iter: 3050/20000, loss: 0.1019, lr: 0.000051, batch_cost: 1.0857, reader_cost: 0.00010, ips: 0.9211 samples/sec | ETA 05:06:41
+2024-03-08 18:06:00 [INFO]	[TRAIN] epoch: 2, iter: 3100/20000, loss: 0.0986, lr: 0.000051, batch_cost: 1.0590, reader_cost: 0.00009, ips: 0.9443 samples/sec | ETA 04:58:17
+2024-03-08 18:06:54 [INFO]	[TRAIN] epoch: 2, iter: 3150/20000, loss: 0.1013, lr: 0.000051, batch_cost: 1.0774, reader_cost: 0.00009, ips: 0.9282 samples/sec | ETA 05:02:33
+2024-03-08 18:07:47 [INFO]	[TRAIN] epoch: 2, iter: 3200/20000, loss: 0.1028, lr: 0.000050, batch_cost: 1.0589, reader_cost: 0.00011, ips: 0.9444 samples/sec | ETA 04:56:29
+2024-03-08 18:07:47 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 18:18:45 [INFO]	[EVAL] #Images: 670 mIoU: 0.5638 Acc: 0.6706 Pre:0.6706 Rec:0.6148 F1:0.6364 Kappa: 0.2737,poacc:0.9539
+2024-03-08 18:18:45 [INFO]	[EVAL] Class IoU: 
+[0.9535 0.1741]
+2024-03-08 18:18:45 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3717]
+2024-03-08 18:18:45 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3717]
+2024-03-08 18:18:45 [INFO]	[EVAL] Class Rec: 
+[0.9829 0.2467]
+2024-03-08 18:18:45 [INFO]	[EVAL] Class F1: 
+[0.9762 0.2966]
+2024-03-08 18:18:45 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 18:19:39 [INFO]	[TRAIN] epoch: 2, iter: 3250/20000, loss: 0.0919, lr: 0.000050, batch_cost: 1.0793, reader_cost: 0.00009, ips: 0.9265 samples/sec | ETA 05:01:18
+2024-03-08 18:20:33 [INFO]	[TRAIN] epoch: 2, iter: 3300/20000, loss: 0.1003, lr: 0.000050, batch_cost: 1.0934, reader_cost: 0.00009, ips: 0.9146 samples/sec | ETA 05:04:19
+2024-03-08 18:21:25 [INFO]	[TRAIN] epoch: 2, iter: 3350/20000, loss: 0.0999, lr: 0.000050, batch_cost: 1.0411, reader_cost: 0.00010, ips: 0.9606 samples/sec | ETA 04:48:53
+2024-03-08 18:22:20 [INFO]	[TRAIN] epoch: 2, iter: 3400/20000, loss: 0.1022, lr: 0.000050, batch_cost: 1.0839, reader_cost: 0.00009, ips: 0.9226 samples/sec | ETA 04:59:53
+2024-03-08 18:22:20 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 18:33:21 [INFO]	[EVAL] #Images: 670 mIoU: 0.5639 Acc: 0.6756 Pre:0.6756 Rec:0.6126 F1:0.6361 Kappa: 0.2735,poacc:0.9548
+2024-03-08 18:33:21 [INFO]	[EVAL] Class IoU: 
+[0.9543 0.1735]
+2024-03-08 18:33:21 [INFO]	[EVAL] Class Acc: 
+[0.9694 0.3819]
+2024-03-08 18:33:21 [INFO]	[EVAL] Class Pre: 
+[0.9694 0.3819]
+2024-03-08 18:33:21 [INFO]	[EVAL] Class Rec: 
+[0.984  0.2412]
+2024-03-08 18:33:21 [INFO]	[EVAL] Class F1: 
+[0.9766 0.2957]
+2024-03-08 18:33:21 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 18:34:15 [INFO]	[TRAIN] epoch: 2, iter: 3450/20000, loss: 0.1053, lr: 0.000050, batch_cost: 1.0893, reader_cost: 0.00010, ips: 0.9180 samples/sec | ETA 05:00:28
+2024-03-08 18:35:09 [INFO]	[TRAIN] epoch: 2, iter: 3500/20000, loss: 0.1054, lr: 0.000050, batch_cost: 1.0817, reader_cost: 0.00010, ips: 0.9245 samples/sec | ETA 04:57:28
+2024-03-08 18:35:59 [INFO]	[TRAIN] epoch: 2, iter: 3550/20000, loss: 0.1045, lr: 0.000049, batch_cost: 0.9842, reader_cost: 0.00009, ips: 1.0161 samples/sec | ETA 04:29:49
+2024-03-08 18:36:49 [INFO]	[TRAIN] epoch: 2, iter: 3600/20000, loss: 0.1030, lr: 0.000049, batch_cost: 1.0177, reader_cost: 0.00010, ips: 0.9826 samples/sec | ETA 04:38:10
+2024-03-08 18:36:49 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 18:47:11 [INFO]	[EVAL] #Images: 670 mIoU: 0.5627 Acc: 0.6745 Pre:0.6745 Rec:0.6108 F1:0.6344 Kappa: 0.2701,poacc:0.9547
+2024-03-08 18:47:11 [INFO]	[EVAL] Class IoU: 
+[0.9543 0.1711]
+2024-03-08 18:47:11 [INFO]	[EVAL] Class Acc: 
+[0.9692 0.3797]
+2024-03-08 18:47:11 [INFO]	[EVAL] Class Pre: 
+[0.9692 0.3797]
+2024-03-08 18:47:11 [INFO]	[EVAL] Class Rec: 
+[0.9841 0.2374]
+2024-03-08 18:47:11 [INFO]	[EVAL] Class F1: 
+[0.9766 0.2922]
+2024-03-08 18:47:11 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 18:48:00 [INFO]	[TRAIN] epoch: 2, iter: 3650/20000, loss: 0.1083, lr: 0.000049, batch_cost: 0.9812, reader_cost: 0.00010, ips: 1.0191 samples/sec | ETA 04:27:22
+2024-03-08 18:48:49 [INFO]	[TRAIN] epoch: 2, iter: 3700/20000, loss: 0.1013, lr: 0.000049, batch_cost: 0.9912, reader_cost: 0.00009, ips: 1.0088 samples/sec | ETA 04:29:17
+2024-03-08 18:49:38 [INFO]	[TRAIN] epoch: 2, iter: 3750/20000, loss: 0.0964, lr: 0.000049, batch_cost: 0.9716, reader_cost: 0.00009, ips: 1.0293 samples/sec | ETA 04:23:08
+2024-03-08 18:50:27 [INFO]	[TRAIN] epoch: 2, iter: 3800/20000, loss: 0.0945, lr: 0.000049, batch_cost: 0.9769, reader_cost: 0.00009, ips: 1.0237 samples/sec | ETA 04:23:45
+2024-03-08 18:50:27 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 19:00:22 [INFO]	[EVAL] #Images: 670 mIoU: 0.5581 Acc: 0.6959 Pre:0.6959 Rec:0.5956 F1:0.6261 Kappa: 0.2551,poacc:0.9578
+2024-03-08 19:00:22 [INFO]	[EVAL] Class IoU: 
+[0.9574 0.1588]
+2024-03-08 19:00:22 [INFO]	[EVAL] Class Acc: 
+[0.968  0.4239]
+2024-03-08 19:00:22 [INFO]	[EVAL] Class Pre: 
+[0.968  0.4239]
+2024-03-08 19:00:22 [INFO]	[EVAL] Class Rec: 
+[0.9887 0.2025]
+2024-03-08 19:00:22 [INFO]	[EVAL] Class F1: 
+[0.9783 0.274 ]
+2024-03-08 19:00:23 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 19:01:10 [INFO]	[TRAIN] epoch: 2, iter: 3850/20000, loss: 0.1095, lr: 0.000048, batch_cost: 0.9480, reader_cost: 0.00009, ips: 1.0549 samples/sec | ETA 04:15:09
+2024-03-08 19:01:56 [INFO]	[TRAIN] epoch: 2, iter: 3900/20000, loss: 0.1092, lr: 0.000048, batch_cost: 0.9192, reader_cost: 0.00008, ips: 1.0879 samples/sec | ETA 04:06:39
+2024-03-08 19:02:42 [INFO]	[TRAIN] epoch: 2, iter: 3950/20000, loss: 0.1005, lr: 0.000048, batch_cost: 0.9206, reader_cost: 0.00009, ips: 1.0862 samples/sec | ETA 04:06:15
+2024-03-08 19:03:28 [INFO]	[TRAIN] epoch: 2, iter: 4000/20000, loss: 0.1011, lr: 0.000048, batch_cost: 0.9312, reader_cost: 0.00009, ips: 1.0739 samples/sec | ETA 04:08:18
+2024-03-08 19:03:28 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 19:12:58 [INFO]	[EVAL] #Images: 670 mIoU: 0.5610 Acc: 0.6828 Pre:0.6828 Rec:0.6043 F1:0.6312 Kappa: 0.2643,poacc:0.9561
+2024-03-08 19:12:58 [INFO]	[EVAL] Class IoU: 
+[0.9557 0.1663]
+2024-03-08 19:12:58 [INFO]	[EVAL] Class Acc: 
+[0.9687 0.3969]
+2024-03-08 19:12:58 [INFO]	[EVAL] Class Pre: 
+[0.9687 0.3969]
+2024-03-08 19:12:58 [INFO]	[EVAL] Class Rec: 
+[0.9861 0.2224]
+2024-03-08 19:12:58 [INFO]	[EVAL] Class F1: 
+[0.9773 0.2851]
+2024-03-08 19:12:58 [INFO]	[EVAL] The model with the best validation mIoU (0.5654) and best F1 (0.2998) was saved at iter 2200.
+2024-03-08 19:13:46 [INFO]	[TRAIN] epoch: 2, iter: 4050/20000, loss: 0.1013, lr: 0.000048, batch_cost: 0.9453, reader_cost: 0.00009, ips: 1.0579 samples/sec | ETA 04:11:17
+2024-03-08 19:14:33 [INFO]	[TRAIN] epoch: 2, iter: 4100/20000, loss: 0.0972, lr: 0.000048, batch_cost: 0.9412, reader_cost: 0.00009, ips: 1.0625 samples/sec | ETA 04:09:24
+2024-03-08 19:15:19 [INFO]	[TRAIN] epoch: 2, iter: 4150/20000, loss: 0.1020, lr: 0.000048, batch_cost: 0.9346, reader_cost: 0.00008, ips: 1.0700 samples/sec | ETA 04:06:53
+2024-03-08 19:16:06 [INFO]	[TRAIN] epoch: 2, iter: 4200/20000, loss: 0.1021, lr: 0.000047, batch_cost: 0.9288, reader_cost: 0.00008, ips: 1.0767 samples/sec | ETA 04:04:34
+2024-03-08 19:16:06 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 19:25:19 [INFO]	[EVAL] #Images: 670 mIoU: 0.5675 Acc: 0.6653 Pre:0.6653 Rec:0.6259 F1:0.6425 Kappa: 0.2854,poacc:0.9523
+2024-03-08 19:25:19 [INFO]	[EVAL] Class IoU: 
+[0.9518 0.1832]
+2024-03-08 19:25:19 [INFO]	[EVAL] Class Acc: 
+[0.9704 0.3602]
+2024-03-08 19:25:19 [INFO]	[EVAL] Class Pre: 
+[0.9704 0.3602]
+2024-03-08 19:25:19 [INFO]	[EVAL] Class Rec: 
+[0.9802 0.2715]
+2024-03-08 19:25:19 [INFO]	[EVAL] Class F1: 
+[0.9753 0.3096]
+2024-03-08 19:25:19 [INFO]	[EVAL] The model with the best validation mIoU (0.5675) and best F1 (0.3096) was saved at iter 4200.
+2024-03-08 19:26:05 [INFO]	[TRAIN] epoch: 2, iter: 4250/20000, loss: 0.0953, lr: 0.000047, batch_cost: 0.9217, reader_cost: 0.00009, ips: 1.0849 samples/sec | ETA 04:01:57
+2024-03-08 19:26:52 [INFO]	[TRAIN] epoch: 2, iter: 4300/20000, loss: 0.1003, lr: 0.000047, batch_cost: 0.9335, reader_cost: 0.00009, ips: 1.0712 samples/sec | ETA 04:04:16
+2024-03-08 19:27:39 [INFO]	[TRAIN] epoch: 2, iter: 4350/20000, loss: 0.0925, lr: 0.000047, batch_cost: 0.9406, reader_cost: 0.00009, ips: 1.0631 samples/sec | ETA 04:05:21
+2024-03-08 19:28:25 [INFO]	[TRAIN] epoch: 2, iter: 4400/20000, loss: 0.0951, lr: 0.000047, batch_cost: 0.9253, reader_cost: 0.00009, ips: 1.0807 samples/sec | ETA 04:00:34
+2024-03-08 19:28:25 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 19:37:38 [INFO]	[EVAL] #Images: 670 mIoU: 0.5681 Acc: 0.6673 Pre:0.6673 Rec:0.6259 F1:0.6432 Kappa: 0.2870,poacc:0.9527
+2024-03-08 19:37:38 [INFO]	[EVAL] Class IoU: 
+[0.9521 0.1841]
+2024-03-08 19:37:38 [INFO]	[EVAL] Class Acc: 
+[0.9704 0.3641]
+2024-03-08 19:37:38 [INFO]	[EVAL] Class Pre: 
+[0.9704 0.3641]
+2024-03-08 19:37:38 [INFO]	[EVAL] Class Rec: 
+[0.9806 0.2713]
+2024-03-08 19:37:38 [INFO]	[EVAL] Class F1: 
+[0.9755 0.3109]
+2024-03-08 19:37:38 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 19:38:25 [INFO]	[TRAIN] epoch: 2, iter: 4450/20000, loss: 0.0950, lr: 0.000047, batch_cost: 0.9411, reader_cost: 0.00009, ips: 1.0626 samples/sec | ETA 04:03:53
+2024-03-08 19:39:11 [INFO]	[TRAIN] epoch: 2, iter: 4500/20000, loss: 0.0992, lr: 0.000047, batch_cost: 0.9242, reader_cost: 0.00009, ips: 1.0820 samples/sec | ETA 03:58:45
+2024-03-08 19:39:57 [INFO]	[TRAIN] epoch: 2, iter: 4550/20000, loss: 0.0966, lr: 0.000046, batch_cost: 0.9154, reader_cost: 0.00009, ips: 1.0925 samples/sec | ETA 03:55:42
+2024-03-08 19:40:43 [INFO]	[TRAIN] epoch: 2, iter: 4600/20000, loss: 0.1027, lr: 0.000046, batch_cost: 0.9249, reader_cost: 0.00009, ips: 1.0812 samples/sec | ETA 03:57:23
+2024-03-08 19:40:43 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 19:49:49 [INFO]	[EVAL] #Images: 670 mIoU: 0.5631 Acc: 0.6848 Pre:0.6848 Rec:0.6074 F1:0.6343 Kappa: 0.2704,poacc:0.9562
+2024-03-08 19:49:49 [INFO]	[EVAL] Class IoU: 
+[0.9558 0.1705]
+2024-03-08 19:49:49 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.4006]
+2024-03-08 19:49:49 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.4006]
+2024-03-08 19:49:49 [INFO]	[EVAL] Class Rec: 
+[0.986  0.2289]
+2024-03-08 19:49:49 [INFO]	[EVAL] Class F1: 
+[0.9774 0.2913]
+2024-03-08 19:49:49 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 19:50:34 [INFO]	[TRAIN] epoch: 2, iter: 4650/20000, loss: 0.1033, lr: 0.000046, batch_cost: 0.9082, reader_cost: 0.00009, ips: 1.1010 samples/sec | ETA 03:52:21
+2024-03-08 19:51:20 [INFO]	[TRAIN] epoch: 2, iter: 4700/20000, loss: 0.0969, lr: 0.000046, batch_cost: 0.9182, reader_cost: 0.00009, ips: 1.0891 samples/sec | ETA 03:54:08
+2024-03-08 19:52:08 [INFO]	[TRAIN] epoch: 2, iter: 4750/20000, loss: 0.0968, lr: 0.000046, batch_cost: 0.9522, reader_cost: 0.00008, ips: 1.0502 samples/sec | ETA 04:02:01
+2024-03-08 19:52:54 [INFO]	[TRAIN] epoch: 2, iter: 4800/20000, loss: 0.1037, lr: 0.000046, batch_cost: 0.9230, reader_cost: 0.00009, ips: 1.0835 samples/sec | ETA 03:53:48
+2024-03-08 19:52:54 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 20:02:10 [INFO]	[EVAL] #Images: 670 mIoU: 0.5652 Acc: 0.6729 Pre:0.6729 Rec:0.6165 F1:0.6383 Kappa: 0.2776,poacc:0.9541
+2024-03-08 20:02:10 [INFO]	[EVAL] Class IoU: 
+[0.9537 0.1767]
+2024-03-08 20:02:10 [INFO]	[EVAL] Class Acc: 
+[0.9697 0.3761]
+2024-03-08 20:02:10 [INFO]	[EVAL] Class Pre: 
+[0.9697 0.3761]
+2024-03-08 20:02:10 [INFO]	[EVAL] Class Rec: 
+[0.983 0.25 ]
+2024-03-08 20:02:10 [INFO]	[EVAL] Class F1: 
+[0.9763 0.3003]
+2024-03-08 20:02:10 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 20:02:58 [INFO]	[TRAIN] epoch: 2, iter: 4850/20000, loss: 0.1118, lr: 0.000045, batch_cost: 0.9532, reader_cost: 0.00009, ips: 1.0491 samples/sec | ETA 04:00:40
+2024-03-08 20:03:45 [INFO]	[TRAIN] epoch: 2, iter: 4900/20000, loss: 0.0937, lr: 0.000045, batch_cost: 0.9406, reader_cost: 0.00009, ips: 1.0631 samples/sec | ETA 03:56:43
+2024-03-08 20:04:31 [INFO]	[TRAIN] epoch: 2, iter: 4950/20000, loss: 0.0999, lr: 0.000045, batch_cost: 0.9190, reader_cost: 0.00010, ips: 1.0882 samples/sec | ETA 03:50:30
+2024-03-08 20:05:17 [INFO]	[TRAIN] epoch: 2, iter: 5000/20000, loss: 0.1012, lr: 0.000045, batch_cost: 0.9280, reader_cost: 0.00009, ips: 1.0776 samples/sec | ETA 03:51:59
+2024-03-08 20:05:17 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 20:14:49 [INFO]	[EVAL] #Images: 670 mIoU: 0.5645 Acc: 0.6628 Pre:0.6628 Rec:0.6209 F1:0.6382 Kappa: 0.2770,poacc:0.9523
+2024-03-08 20:14:49 [INFO]	[EVAL] Class IoU: 
+[0.9518 0.1773]
+2024-03-08 20:14:49 [INFO]	[EVAL] Class Acc: 
+[0.97   0.3556]
+2024-03-08 20:14:49 [INFO]	[EVAL] Class Pre: 
+[0.97   0.3556]
+2024-03-08 20:14:49 [INFO]	[EVAL] Class Rec: 
+[0.9806 0.2611]
+2024-03-08 20:14:49 [INFO]	[EVAL] Class F1: 
+[0.9753 0.3011]
+2024-03-08 20:14:49 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 20:15:38 [INFO]	[TRAIN] epoch: 3, iter: 5050/20000, loss: 0.0990, lr: 0.000045, batch_cost: 0.9769, reader_cost: 0.00545, ips: 1.0236 samples/sec | ETA 04:03:24
+2024-03-08 20:16:26 [INFO]	[TRAIN] epoch: 3, iter: 5100/20000, loss: 0.0964, lr: 0.000045, batch_cost: 0.9565, reader_cost: 0.00008, ips: 1.0455 samples/sec | ETA 03:57:31
+2024-03-08 20:17:14 [INFO]	[TRAIN] epoch: 3, iter: 5150/20000, loss: 0.1027, lr: 0.000045, batch_cost: 0.9686, reader_cost: 0.00009, ips: 1.0324 samples/sec | ETA 03:59:44
+2024-03-08 20:18:00 [INFO]	[TRAIN] epoch: 3, iter: 5200/20000, loss: 0.1051, lr: 0.000044, batch_cost: 0.9183, reader_cost: 0.00009, ips: 1.0890 samples/sec | ETA 03:46:30
+2024-03-08 20:18:00 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 20:27:36 [INFO]	[EVAL] #Images: 670 mIoU: 0.5638 Acc: 0.6688 Pre:0.6688 Rec:0.6159 F1:0.6366 Kappa: 0.2741,poacc:0.9536
+2024-03-08 20:27:36 [INFO]	[EVAL] Class IoU: 
+[0.9531 0.1746]
+2024-03-08 20:27:36 [INFO]	[EVAL] Class Acc: 
+[0.9696 0.368 ]
+2024-03-08 20:27:36 [INFO]	[EVAL] Class Pre: 
+[0.9696 0.368 ]
+2024-03-08 20:27:36 [INFO]	[EVAL] Class Rec: 
+[0.9825 0.2493]
+2024-03-08 20:27:36 [INFO]	[EVAL] Class F1: 
+[0.976  0.2972]
+2024-03-08 20:27:37 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 20:28:24 [INFO]	[TRAIN] epoch: 3, iter: 5250/20000, loss: 0.0938, lr: 0.000044, batch_cost: 0.9486, reader_cost: 0.00009, ips: 1.0541 samples/sec | ETA 03:53:12
+2024-03-08 20:29:11 [INFO]	[TRAIN] epoch: 3, iter: 5300/20000, loss: 0.1086, lr: 0.000044, batch_cost: 0.9393, reader_cost: 0.00008, ips: 1.0646 samples/sec | ETA 03:50:07
+2024-03-08 20:29:58 [INFO]	[TRAIN] epoch: 3, iter: 5350/20000, loss: 0.0926, lr: 0.000044, batch_cost: 0.9425, reader_cost: 0.00009, ips: 1.0610 samples/sec | ETA 03:50:08
+2024-03-08 20:30:45 [INFO]	[TRAIN] epoch: 3, iter: 5400/20000, loss: 0.1036, lr: 0.000044, batch_cost: 0.9344, reader_cost: 0.00008, ips: 1.0702 samples/sec | ETA 03:47:21
+2024-03-08 20:30:45 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 20:40:55 [INFO]	[EVAL] #Images: 670 mIoU: 0.5651 Acc: 0.6771 Pre:0.6771 Rec:0.6142 F1:0.6378 Kappa: 0.2769,poacc:0.9549
+2024-03-08 20:40:55 [INFO]	[EVAL] Class IoU: 
+[0.9544 0.1758]
+2024-03-08 20:40:55 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3848]
+2024-03-08 20:40:55 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3848]
+2024-03-08 20:40:55 [INFO]	[EVAL] Class Rec: 
+[0.984  0.2445]
+2024-03-08 20:40:55 [INFO]	[EVAL] Class F1: 
+[0.9767 0.299 ]
+2024-03-08 20:40:55 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 20:41:46 [INFO]	[TRAIN] epoch: 3, iter: 5450/20000, loss: 0.1007, lr: 0.000044, batch_cost: 1.0146, reader_cost: 0.00008, ips: 0.9856 samples/sec | ETA 04:06:01
+2024-03-08 20:42:35 [INFO]	[TRAIN] epoch: 3, iter: 5500/20000, loss: 0.0964, lr: 0.000044, batch_cost: 0.9928, reader_cost: 0.00009, ips: 1.0072 samples/sec | ETA 03:59:55
+2024-03-08 20:43:25 [INFO]	[TRAIN] epoch: 3, iter: 5550/20000, loss: 0.0995, lr: 0.000043, batch_cost: 0.9980, reader_cost: 0.00009, ips: 1.0020 samples/sec | ETA 04:00:20
+2024-03-08 20:44:15 [INFO]	[TRAIN] epoch: 3, iter: 5600/20000, loss: 0.0934, lr: 0.000043, batch_cost: 0.9905, reader_cost: 0.00009, ips: 1.0096 samples/sec | ETA 03:57:42
+2024-03-08 20:44:15 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 20:54:42 [INFO]	[EVAL] #Images: 670 mIoU: 0.5640 Acc: 0.6832 Pre:0.6832 Rec:0.6095 F1:0.6357 Kappa: 0.2730,poacc:0.9559
+2024-03-08 20:54:42 [INFO]	[EVAL] Class IoU: 
+[0.9555 0.1725]
+2024-03-08 20:54:42 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.3973]
+2024-03-08 20:54:42 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.3973]
+2024-03-08 20:54:42 [INFO]	[EVAL] Class Rec: 
+[0.9855 0.2336]
+2024-03-08 20:54:42 [INFO]	[EVAL] Class F1: 
+[0.9772 0.2942]
+2024-03-08 20:54:42 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 20:55:31 [INFO]	[TRAIN] epoch: 3, iter: 5650/20000, loss: 0.0988, lr: 0.000043, batch_cost: 0.9796, reader_cost: 0.00008, ips: 1.0208 samples/sec | ETA 03:54:17
+2024-03-08 20:56:20 [INFO]	[TRAIN] epoch: 3, iter: 5700/20000, loss: 0.0964, lr: 0.000043, batch_cost: 0.9768, reader_cost: 0.00008, ips: 1.0238 samples/sec | ETA 03:52:47
+2024-03-08 20:57:09 [INFO]	[TRAIN] epoch: 3, iter: 5750/20000, loss: 0.1048, lr: 0.000043, batch_cost: 0.9765, reader_cost: 0.00009, ips: 1.0240 samples/sec | ETA 03:51:55
+2024-03-08 20:57:59 [INFO]	[TRAIN] epoch: 3, iter: 5800/20000, loss: 0.0916, lr: 0.000043, batch_cost: 1.0002, reader_cost: 0.00009, ips: 0.9998 samples/sec | ETA 03:56:43
+2024-03-08 20:57:59 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 21:08:04 [INFO]	[EVAL] #Images: 670 mIoU: 0.5622 Acc: 0.6902 Pre:0.6902 Rec:0.6039 F1:0.6326 Kappa: 0.2672,poacc:0.9569
+2024-03-08 21:08:04 [INFO]	[EVAL] Class IoU: 
+[0.9565 0.1678]
+2024-03-08 21:08:04 [INFO]	[EVAL] Class Acc: 
+[0.9687 0.4118]
+2024-03-08 21:08:04 [INFO]	[EVAL] Class Pre: 
+[0.9687 0.4118]
+2024-03-08 21:08:04 [INFO]	[EVAL] Class Rec: 
+[0.9871 0.2207]
+2024-03-08 21:08:04 [INFO]	[EVAL] Class F1: 
+[0.9778 0.2874]
+2024-03-08 21:08:04 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 21:08:51 [INFO]	[TRAIN] epoch: 3, iter: 5850/20000, loss: 0.1079, lr: 0.000042, batch_cost: 0.9251, reader_cost: 0.00008, ips: 1.0810 samples/sec | ETA 03:38:09
+2024-03-08 21:09:37 [INFO]	[TRAIN] epoch: 3, iter: 5900/20000, loss: 0.0961, lr: 0.000042, batch_cost: 0.9335, reader_cost: 0.00008, ips: 1.0712 samples/sec | ETA 03:39:23
+2024-03-08 21:10:24 [INFO]	[TRAIN] epoch: 3, iter: 5950/20000, loss: 0.1006, lr: 0.000042, batch_cost: 0.9331, reader_cost: 0.00008, ips: 1.0717 samples/sec | ETA 03:38:29
+2024-03-08 21:11:11 [INFO]	[TRAIN] epoch: 3, iter: 6000/20000, loss: 0.0909, lr: 0.000042, batch_cost: 0.9348, reader_cost: 0.00009, ips: 1.0698 samples/sec | ETA 03:38:06
+2024-03-08 21:11:11 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 21:21:06 [INFO]	[EVAL] #Images: 670 mIoU: 0.5627 Acc: 0.6878 Pre:0.6878 Rec:0.6056 F1:0.6336 Kappa: 0.2690,poacc:0.9566
+2024-03-08 21:21:06 [INFO]	[EVAL] Class IoU: 
+[0.9562 0.1693]
+2024-03-08 21:21:06 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4069]
+2024-03-08 21:21:06 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4069]
+2024-03-08 21:21:06 [INFO]	[EVAL] Class Rec: 
+[0.9866 0.2247]
+2024-03-08 21:21:06 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2895]
+2024-03-08 21:21:06 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 21:21:53 [INFO]	[TRAIN] epoch: 3, iter: 6050/20000, loss: 0.1007, lr: 0.000042, batch_cost: 0.9233, reader_cost: 0.00009, ips: 1.0830 samples/sec | ETA 03:34:40
+2024-03-08 21:22:39 [INFO]	[TRAIN] epoch: 3, iter: 6100/20000, loss: 0.0921, lr: 0.000042, batch_cost: 0.9191, reader_cost: 0.00008, ips: 1.0881 samples/sec | ETA 03:32:55
+2024-03-08 21:23:24 [INFO]	[TRAIN] epoch: 3, iter: 6150/20000, loss: 0.0910, lr: 0.000042, batch_cost: 0.9193, reader_cost: 0.00008, ips: 1.0877 samples/sec | ETA 03:32:12
+2024-03-08 21:24:09 [INFO]	[TRAIN] epoch: 3, iter: 6200/20000, loss: 0.1036, lr: 0.000041, batch_cost: 0.8984, reader_cost: 0.00008, ips: 1.1131 samples/sec | ETA 03:26:37
+2024-03-08 21:24:09 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 21:33:33 [INFO]	[EVAL] #Images: 670 mIoU: 0.5637 Acc: 0.6596 Pre:0.6596 Rec:0.6212 F1:0.6373 Kappa: 0.2752,poacc:0.9517
+2024-03-08 21:33:33 [INFO]	[EVAL] Class IoU: 
+[0.9512 0.1762]
+2024-03-08 21:33:33 [INFO]	[EVAL] Class Acc: 
+[0.9701 0.3492]
+2024-03-08 21:33:33 [INFO]	[EVAL] Class Pre: 
+[0.9701 0.3492]
+2024-03-08 21:33:33 [INFO]	[EVAL] Class Rec: 
+[0.98   0.2624]
+2024-03-08 21:33:33 [INFO]	[EVAL] Class F1: 
+[0.975  0.2996]
+2024-03-08 21:33:33 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 21:34:20 [INFO]	[TRAIN] epoch: 3, iter: 6250/20000, loss: 0.0976, lr: 0.000041, batch_cost: 0.9356, reader_cost: 0.00010, ips: 1.0689 samples/sec | ETA 03:34:24
+2024-03-08 21:35:07 [INFO]	[TRAIN] epoch: 3, iter: 6300/20000, loss: 0.0997, lr: 0.000041, batch_cost: 0.9487, reader_cost: 0.00008, ips: 1.0541 samples/sec | ETA 03:36:37
+2024-03-08 21:35:54 [INFO]	[TRAIN] epoch: 3, iter: 6350/20000, loss: 0.0940, lr: 0.000041, batch_cost: 0.9416, reader_cost: 0.00008, ips: 1.0620 samples/sec | ETA 03:34:13
+2024-03-08 21:36:41 [INFO]	[TRAIN] epoch: 3, iter: 6400/20000, loss: 0.0998, lr: 0.000041, batch_cost: 0.9302, reader_cost: 0.00008, ips: 1.0751 samples/sec | ETA 03:30:50
+2024-03-08 21:36:41 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 21:46:34 [INFO]	[EVAL] #Images: 670 mIoU: 0.5609 Acc: 0.6758 Pre:0.6758 Rec:0.6067 F1:0.6315 Kappa: 0.2646,poacc:0.9551
+2024-03-08 21:46:34 [INFO]	[EVAL] Class IoU: 
+[0.9547 0.167 ]
+2024-03-08 21:46:34 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.3828]
+2024-03-08 21:46:34 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.3828]
+2024-03-08 21:46:34 [INFO]	[EVAL] Class Rec: 
+[0.9849 0.2286]
+2024-03-08 21:46:34 [INFO]	[EVAL] Class F1: 
+[0.9768 0.2862]
+2024-03-08 21:46:35 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 21:47:22 [INFO]	[TRAIN] epoch: 3, iter: 6450/20000, loss: 0.0982, lr: 0.000041, batch_cost: 0.9548, reader_cost: 0.00008, ips: 1.0473 samples/sec | ETA 03:35:37
+2024-03-08 21:48:11 [INFO]	[TRAIN] epoch: 3, iter: 6500/20000, loss: 0.1056, lr: 0.000041, batch_cost: 0.9831, reader_cost: 0.00009, ips: 1.0172 samples/sec | ETA 03:41:11
+2024-03-08 21:49:01 [INFO]	[TRAIN] epoch: 3, iter: 6550/20000, loss: 0.0970, lr: 0.000040, batch_cost: 0.9844, reader_cost: 0.00008, ips: 1.0158 samples/sec | ETA 03:40:40
+2024-03-08 21:49:49 [INFO]	[TRAIN] epoch: 3, iter: 6600/20000, loss: 0.0932, lr: 0.000040, batch_cost: 0.9683, reader_cost: 0.00009, ips: 1.0328 samples/sec | ETA 03:36:14
+2024-03-08 21:49:49 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 22:00:02 [INFO]	[EVAL] #Images: 670 mIoU: 0.5602 Acc: 0.6854 Pre:0.6854 Rec:0.6020 F1:0.6298 Kappa: 0.2617,poacc:0.9565
+2024-03-08 22:00:02 [INFO]	[EVAL] Class IoU: 
+[0.9561 0.1642]
+2024-03-08 22:00:02 [INFO]	[EVAL] Class Acc: 
+[0.9685 0.4024]
+2024-03-08 22:00:02 [INFO]	[EVAL] Class Pre: 
+[0.9685 0.4024]
+2024-03-08 22:00:02 [INFO]	[EVAL] Class Rec: 
+[0.9868 0.2172]
+2024-03-08 22:00:02 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2821]
+2024-03-08 22:00:03 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 22:00:51 [INFO]	[TRAIN] epoch: 3, iter: 6650/20000, loss: 0.1019, lr: 0.000040, batch_cost: 0.9791, reader_cost: 0.00008, ips: 1.0213 samples/sec | ETA 03:37:50
+2024-03-08 22:01:41 [INFO]	[TRAIN] epoch: 3, iter: 6700/20000, loss: 0.0910, lr: 0.000040, batch_cost: 0.9925, reader_cost: 0.00008, ips: 1.0076 samples/sec | ETA 03:40:00
+2024-03-08 22:02:31 [INFO]	[TRAIN] epoch: 3, iter: 6750/20000, loss: 0.0959, lr: 0.000040, batch_cost: 1.0011, reader_cost: 0.00009, ips: 0.9989 samples/sec | ETA 03:41:04
+2024-03-08 22:03:20 [INFO]	[TRAIN] epoch: 3, iter: 6800/20000, loss: 0.0940, lr: 0.000040, batch_cost: 0.9801, reader_cost: 0.00009, ips: 1.0203 samples/sec | ETA 03:35:37
+2024-03-08 22:03:20 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 22:13:16 [INFO]	[EVAL] #Images: 670 mIoU: 0.5668 Acc: 0.6806 Pre:0.6806 Rec:0.6160 F1:0.6402 Kappa: 0.2815,poacc:0.9552
+2024-03-08 22:13:16 [INFO]	[EVAL] Class IoU: 
+[0.9548 0.1789]
+2024-03-08 22:13:16 [INFO]	[EVAL] Class Acc: 
+[0.9696 0.3916]
+2024-03-08 22:13:16 [INFO]	[EVAL] Class Pre: 
+[0.9696 0.3916]
+2024-03-08 22:13:16 [INFO]	[EVAL] Class Rec: 
+[0.9842 0.2477]
+2024-03-08 22:13:16 [INFO]	[EVAL] Class F1: 
+[0.9769 0.3035]
+2024-03-08 22:13:16 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 22:14:04 [INFO]	[TRAIN] epoch: 3, iter: 6850/20000, loss: 0.0942, lr: 0.000039, batch_cost: 0.9534, reader_cost: 0.00008, ips: 1.0488 samples/sec | ETA 03:28:57
+2024-03-08 22:14:52 [INFO]	[TRAIN] epoch: 3, iter: 6900/20000, loss: 0.1004, lr: 0.000039, batch_cost: 0.9636, reader_cost: 0.00008, ips: 1.0378 samples/sec | ETA 03:30:23
+2024-03-08 22:15:42 [INFO]	[TRAIN] epoch: 3, iter: 6950/20000, loss: 0.0960, lr: 0.000039, batch_cost: 0.9917, reader_cost: 0.00008, ips: 1.0083 samples/sec | ETA 03:35:42
+2024-03-08 22:16:31 [INFO]	[TRAIN] epoch: 3, iter: 7000/20000, loss: 0.1054, lr: 0.000039, batch_cost: 0.9773, reader_cost: 0.00008, ips: 1.0232 samples/sec | ETA 03:31:44
+2024-03-08 22:16:31 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 22:26:30 [INFO]	[EVAL] #Images: 670 mIoU: 0.5656 Acc: 0.6831 Pre:0.6831 Rec:0.6127 F1:0.6382 Kappa: 0.2779,poacc:0.9557
+2024-03-08 22:26:30 [INFO]	[EVAL] Class IoU: 
+[0.9553 0.176 ]
+2024-03-08 22:26:30 [INFO]	[EVAL] Class Acc: 
+[0.9694 0.3968]
+2024-03-08 22:26:30 [INFO]	[EVAL] Class Pre: 
+[0.9694 0.3968]
+2024-03-08 22:26:30 [INFO]	[EVAL] Class Rec: 
+[0.985  0.2403]
+2024-03-08 22:26:30 [INFO]	[EVAL] Class F1: 
+[0.9771 0.2993]
+2024-03-08 22:26:30 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 22:27:18 [INFO]	[TRAIN] epoch: 3, iter: 7050/20000, loss: 0.0955, lr: 0.000039, batch_cost: 0.9610, reader_cost: 0.00008, ips: 1.0406 samples/sec | ETA 03:27:24
+2024-03-08 22:28:06 [INFO]	[TRAIN] epoch: 3, iter: 7100/20000, loss: 0.0990, lr: 0.000039, batch_cost: 0.9609, reader_cost: 0.00009, ips: 1.0407 samples/sec | ETA 03:26:35
+2024-03-08 22:28:53 [INFO]	[TRAIN] epoch: 3, iter: 7150/20000, loss: 0.0963, lr: 0.000039, batch_cost: 0.9457, reader_cost: 0.00009, ips: 1.0575 samples/sec | ETA 03:22:31
+2024-03-08 22:29:40 [INFO]	[TRAIN] epoch: 3, iter: 7200/20000, loss: 0.0925, lr: 0.000038, batch_cost: 0.9439, reader_cost: 0.00007, ips: 1.0594 samples/sec | ETA 03:21:22
+2024-03-08 22:29:40 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 22:39:36 [INFO]	[EVAL] #Images: 670 mIoU: 0.5639 Acc: 0.6802 Pre:0.6802 Rec:0.6106 F1:0.6358 Kappa: 0.2730,poacc:0.9555
+2024-03-08 22:39:36 [INFO]	[EVAL] Class IoU: 
+[0.955  0.1727]
+2024-03-08 22:39:36 [INFO]	[EVAL] Class Acc: 
+[0.9692 0.3912]
+2024-03-08 22:39:36 [INFO]	[EVAL] Class Pre: 
+[0.9692 0.3912]
+2024-03-08 22:39:36 [INFO]	[EVAL] Class Rec: 
+[0.9849 0.2362]
+2024-03-08 22:39:36 [INFO]	[EVAL] Class F1: 
+[0.977  0.2945]
+2024-03-08 22:39:36 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 22:40:25 [INFO]	[TRAIN] epoch: 3, iter: 7250/20000, loss: 0.0968, lr: 0.000038, batch_cost: 0.9723, reader_cost: 0.00008, ips: 1.0285 samples/sec | ETA 03:26:36
+2024-03-08 22:41:13 [INFO]	[TRAIN] epoch: 3, iter: 7300/20000, loss: 0.0942, lr: 0.000038, batch_cost: 0.9668, reader_cost: 0.00008, ips: 1.0344 samples/sec | ETA 03:24:38
+2024-03-08 22:42:01 [INFO]	[TRAIN] epoch: 3, iter: 7350/20000, loss: 0.1051, lr: 0.000038, batch_cost: 0.9558, reader_cost: 0.00009, ips: 1.0463 samples/sec | ETA 03:21:30
+2024-03-08 22:42:48 [INFO]	[TRAIN] epoch: 3, iter: 7400/20000, loss: 0.0955, lr: 0.000038, batch_cost: 0.9461, reader_cost: 0.00008, ips: 1.0570 samples/sec | ETA 03:18:40
+2024-03-08 22:42:48 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 22:52:40 [INFO]	[EVAL] #Images: 670 mIoU: 0.5624 Acc: 0.6672 Pre:0.6672 Rec:0.6137 F1:0.6345 Kappa: 0.2700,poacc:0.9535
+2024-03-08 22:52:40 [INFO]	[EVAL] Class IoU: 
+[0.953  0.1717]
+2024-03-08 22:52:40 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.365 ]
+2024-03-08 22:52:40 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.365 ]
+2024-03-08 22:52:40 [INFO]	[EVAL] Class Rec: 
+[0.9825 0.2448]
+2024-03-08 22:52:40 [INFO]	[EVAL] Class F1: 
+[0.976 0.293]
+2024-03-08 22:52:40 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 22:53:28 [INFO]	[TRAIN] epoch: 3, iter: 7450/20000, loss: 0.0940, lr: 0.000038, batch_cost: 0.9571, reader_cost: 0.00009, ips: 1.0448 samples/sec | ETA 03:20:11
+2024-03-08 22:54:16 [INFO]	[TRAIN] epoch: 3, iter: 7500/20000, loss: 0.0928, lr: 0.000038, batch_cost: 0.9604, reader_cost: 0.00008, ips: 1.0412 samples/sec | ETA 03:20:05
+2024-03-08 22:55:05 [INFO]	[TRAIN] epoch: 3, iter: 7550/20000, loss: 0.0877, lr: 0.000037, batch_cost: 0.9696, reader_cost: 0.00008, ips: 1.0314 samples/sec | ETA 03:21:10
+2024-03-08 22:55:54 [INFO]	[TRAIN] epoch: 4, iter: 7600/20000, loss: 0.0897, lr: 0.000037, batch_cost: 0.9744, reader_cost: 0.00517, ips: 1.0263 samples/sec | ETA 03:21:22
+2024-03-08 22:55:54 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 23:05:32 [INFO]	[EVAL] #Images: 670 mIoU: 0.5639 Acc: 0.6814 Pre:0.6814 Rec:0.6101 F1:0.6357 Kappa: 0.2729,poacc:0.9556
+2024-03-08 23:05:32 [INFO]	[EVAL] Class IoU: 
+[0.9552 0.1725]
+2024-03-08 23:05:32 [INFO]	[EVAL] Class Acc: 
+[0.9692 0.3937]
+2024-03-08 23:05:32 [INFO]	[EVAL] Class Pre: 
+[0.9692 0.3937]
+2024-03-08 23:05:32 [INFO]	[EVAL] Class Rec: 
+[0.9852 0.235 ]
+2024-03-08 23:05:32 [INFO]	[EVAL] Class F1: 
+[0.9771 0.2943]
+2024-03-08 23:05:32 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 23:06:17 [INFO]	[TRAIN] epoch: 4, iter: 7650/20000, loss: 0.0887, lr: 0.000037, batch_cost: 0.9072, reader_cost: 0.00010, ips: 1.1023 samples/sec | ETA 03:06:44
+2024-03-08 23:07:07 [INFO]	[TRAIN] epoch: 4, iter: 7700/20000, loss: 0.0860, lr: 0.000037, batch_cost: 0.9873, reader_cost: 0.00009, ips: 1.0128 samples/sec | ETA 03:22:24
+2024-03-08 23:07:55 [INFO]	[TRAIN] epoch: 4, iter: 7750/20000, loss: 0.0912, lr: 0.000037, batch_cost: 0.9629, reader_cost: 0.00009, ips: 1.0385 samples/sec | ETA 03:16:35
+2024-03-08 23:08:42 [INFO]	[TRAIN] epoch: 4, iter: 7800/20000, loss: 0.1022, lr: 0.000037, batch_cost: 0.9485, reader_cost: 0.00009, ips: 1.0543 samples/sec | ETA 03:12:51
+2024-03-08 23:08:42 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 23:18:35 [INFO]	[EVAL] #Images: 670 mIoU: 0.5603 Acc: 0.6991 Pre:0.6991 Rec:0.5983 F1:0.6293 Kappa: 0.2613,poacc:0.9580
+2024-03-08 23:18:35 [INFO]	[EVAL] Class IoU: 
+[0.9576 0.163 ]
+2024-03-08 23:18:35 [INFO]	[EVAL] Class Acc: 
+[0.9682 0.4301]
+2024-03-08 23:18:35 [INFO]	[EVAL] Class Pre: 
+[0.9682 0.4301]
+2024-03-08 23:18:35 [INFO]	[EVAL] Class Rec: 
+[0.9887 0.2078]
+2024-03-08 23:18:35 [INFO]	[EVAL] Class F1: 
+[0.9784 0.2802]
+2024-03-08 23:18:36 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 23:19:22 [INFO]	[TRAIN] epoch: 4, iter: 7850/20000, loss: 0.1007, lr: 0.000036, batch_cost: 0.9211, reader_cost: 0.00008, ips: 1.0857 samples/sec | ETA 03:06:30
+2024-03-08 23:20:08 [INFO]	[TRAIN] epoch: 4, iter: 7900/20000, loss: 0.0926, lr: 0.000036, batch_cost: 0.9277, reader_cost: 0.00010, ips: 1.0779 samples/sec | ETA 03:07:05
+2024-03-08 23:20:54 [INFO]	[TRAIN] epoch: 4, iter: 7950/20000, loss: 0.0943, lr: 0.000036, batch_cost: 0.9275, reader_cost: 0.00010, ips: 1.0782 samples/sec | ETA 03:06:15
+2024-03-08 23:21:42 [INFO]	[TRAIN] epoch: 4, iter: 8000/20000, loss: 0.0988, lr: 0.000036, batch_cost: 0.9442, reader_cost: 0.00008, ips: 1.0591 samples/sec | ETA 03:08:50
+2024-03-08 23:21:42 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 23:31:26 [INFO]	[EVAL] #Images: 670 mIoU: 0.5626 Acc: 0.6730 Pre:0.6730 Rec:0.6113 F1:0.6344 Kappa: 0.2700,poacc:0.9545
+2024-03-08 23:31:26 [INFO]	[EVAL] Class IoU: 
+[0.954  0.1712]
+2024-03-08 23:31:26 [INFO]	[EVAL] Class Acc: 
+[0.9693 0.3767]
+2024-03-08 23:31:26 [INFO]	[EVAL] Class Pre: 
+[0.9693 0.3767]
+2024-03-08 23:31:26 [INFO]	[EVAL] Class Rec: 
+[0.9838 0.2388]
+2024-03-08 23:31:26 [INFO]	[EVAL] Class F1: 
+[0.9765 0.2923]
+2024-03-08 23:31:26 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 23:32:12 [INFO]	[TRAIN] epoch: 4, iter: 8050/20000, loss: 0.0930, lr: 0.000036, batch_cost: 0.9161, reader_cost: 0.00009, ips: 1.0916 samples/sec | ETA 03:02:27
+2024-03-08 23:32:57 [INFO]	[TRAIN] epoch: 4, iter: 8100/20000, loss: 0.0921, lr: 0.000036, batch_cost: 0.9162, reader_cost: 0.00009, ips: 1.0914 samples/sec | ETA 03:01:43
+2024-03-08 23:33:44 [INFO]	[TRAIN] epoch: 4, iter: 8150/20000, loss: 0.0985, lr: 0.000036, batch_cost: 0.9279, reader_cost: 0.00008, ips: 1.0776 samples/sec | ETA 03:03:16
+2024-03-08 23:34:30 [INFO]	[TRAIN] epoch: 4, iter: 8200/20000, loss: 0.1013, lr: 0.000035, batch_cost: 0.9225, reader_cost: 0.00008, ips: 1.0840 samples/sec | ETA 03:01:25
+2024-03-08 23:34:30 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 23:43:53 [INFO]	[EVAL] #Images: 670 mIoU: 0.5646 Acc: 0.6788 Pre:0.6788 Rec:0.6125 F1:0.6370 Kappa: 0.2752,poacc:0.9552
+2024-03-08 23:43:53 [INFO]	[EVAL] Class IoU: 
+[0.9548 0.1744]
+2024-03-08 23:43:53 [INFO]	[EVAL] Class Acc: 
+[0.9694 0.3883]
+2024-03-08 23:43:53 [INFO]	[EVAL] Class Pre: 
+[0.9694 0.3883]
+2024-03-08 23:43:53 [INFO]	[EVAL] Class Rec: 
+[0.9845 0.2405]
+2024-03-08 23:43:53 [INFO]	[EVAL] Class F1: 
+[0.9769 0.297 ]
+2024-03-08 23:43:54 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 23:44:41 [INFO]	[TRAIN] epoch: 4, iter: 8250/20000, loss: 0.0976, lr: 0.000035, batch_cost: 0.9426, reader_cost: 0.00008, ips: 1.0609 samples/sec | ETA 03:04:35
+2024-03-08 23:45:28 [INFO]	[TRAIN] epoch: 4, iter: 8300/20000, loss: 0.1044, lr: 0.000035, batch_cost: 0.9360, reader_cost: 0.00008, ips: 1.0683 samples/sec | ETA 03:02:31
+2024-03-08 23:46:14 [INFO]	[TRAIN] epoch: 4, iter: 8350/20000, loss: 0.0947, lr: 0.000035, batch_cost: 0.9353, reader_cost: 0.00008, ips: 1.0691 samples/sec | ETA 03:01:36
+2024-03-08 23:47:02 [INFO]	[TRAIN] epoch: 4, iter: 8400/20000, loss: 0.0900, lr: 0.000035, batch_cost: 0.9605, reader_cost: 0.00009, ips: 1.0411 samples/sec | ETA 03:05:42
+2024-03-08 23:47:02 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-08 23:56:33 [INFO]	[EVAL] #Images: 670 mIoU: 0.5650 Acc: 0.6845 Pre:0.6845 Rec:0.6109 F1:0.6371 Kappa: 0.2758,poacc:0.9560
+2024-03-08 23:56:33 [INFO]	[EVAL] Class IoU: 
+[0.9556 0.1744]
+2024-03-08 23:56:33 [INFO]	[EVAL] Class Acc: 
+[0.9692 0.3998]
+2024-03-08 23:56:33 [INFO]	[EVAL] Class Pre: 
+[0.9692 0.3998]
+2024-03-08 23:56:33 [INFO]	[EVAL] Class Rec: 
+[0.9855 0.2363]
+2024-03-08 23:56:33 [INFO]	[EVAL] Class F1: 
+[0.9773 0.297 ]
+2024-03-08 23:56:33 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-08 23:57:21 [INFO]	[TRAIN] epoch: 4, iter: 8450/20000, loss: 0.0912, lr: 0.000035, batch_cost: 0.9522, reader_cost: 0.00009, ips: 1.0502 samples/sec | ETA 03:03:17
+2024-03-08 23:58:08 [INFO]	[TRAIN] epoch: 4, iter: 8500/20000, loss: 0.1057, lr: 0.000035, batch_cost: 0.9375, reader_cost: 0.00009, ips: 1.0666 samples/sec | ETA 02:59:41
+2024-03-08 23:58:56 [INFO]	[TRAIN] epoch: 4, iter: 8550/20000, loss: 0.0914, lr: 0.000034, batch_cost: 0.9551, reader_cost: 0.00009, ips: 1.0470 samples/sec | ETA 03:02:16
+2024-03-08 23:59:42 [INFO]	[TRAIN] epoch: 4, iter: 8600/20000, loss: 0.0968, lr: 0.000034, batch_cost: 0.9371, reader_cost: 0.00009, ips: 1.0671 samples/sec | ETA 02:58:02
+2024-03-08 23:59:42 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 00:09:09 [INFO]	[EVAL] #Images: 670 mIoU: 0.5648 Acc: 0.6749 Pre:0.6749 Rec:0.6147 F1:0.6375 Kappa: 0.2762,poacc:0.9545
+2024-03-09 00:09:09 [INFO]	[EVAL] Class IoU: 
+[0.9541 0.1755]
+2024-03-09 00:09:09 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3802]
+2024-03-09 00:09:09 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3802]
+2024-03-09 00:09:09 [INFO]	[EVAL] Class Rec: 
+[0.9836 0.2458]
+2024-03-09 00:09:09 [INFO]	[EVAL] Class F1: 
+[0.9765 0.2985]
+2024-03-09 00:09:09 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 00:09:57 [INFO]	[TRAIN] epoch: 4, iter: 8650/20000, loss: 0.0984, lr: 0.000034, batch_cost: 0.9666, reader_cost: 0.00008, ips: 1.0345 samples/sec | ETA 03:02:51
+2024-03-09 00:10:45 [INFO]	[TRAIN] epoch: 4, iter: 8700/20000, loss: 0.0935, lr: 0.000034, batch_cost: 0.9457, reader_cost: 0.00008, ips: 1.0574 samples/sec | ETA 02:58:06
+2024-03-09 00:11:32 [INFO]	[TRAIN] epoch: 4, iter: 8750/20000, loss: 0.1002, lr: 0.000034, batch_cost: 0.9420, reader_cost: 0.00008, ips: 1.0616 samples/sec | ETA 02:56:37
+2024-03-09 00:12:19 [INFO]	[TRAIN] epoch: 4, iter: 8800/20000, loss: 0.1061, lr: 0.000034, batch_cost: 0.9370, reader_cost: 0.00009, ips: 1.0672 samples/sec | ETA 02:54:54
+2024-03-09 00:12:19 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 00:21:53 [INFO]	[EVAL] #Images: 670 mIoU: 0.5630 Acc: 0.6799 Pre:0.6799 Rec:0.6090 F1:0.6344 Kappa: 0.2704,poacc:0.9555
+2024-03-09 00:21:53 [INFO]	[EVAL] Class IoU: 
+[0.9551 0.1709]
+2024-03-09 00:21:53 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.3908]
+2024-03-09 00:21:53 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.3908]
+2024-03-09 00:21:53 [INFO]	[EVAL] Class Rec: 
+[0.9851 0.2329]
+2024-03-09 00:21:53 [INFO]	[EVAL] Class F1: 
+[0.977  0.2919]
+2024-03-09 00:21:53 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 00:22:41 [INFO]	[TRAIN] epoch: 4, iter: 8850/20000, loss: 0.0999, lr: 0.000033, batch_cost: 0.9598, reader_cost: 0.00009, ips: 1.0419 samples/sec | ETA 02:58:21
+2024-03-09 00:23:29 [INFO]	[TRAIN] epoch: 4, iter: 8900/20000, loss: 0.0955, lr: 0.000033, batch_cost: 0.9587, reader_cost: 0.00009, ips: 1.0431 samples/sec | ETA 02:57:21
+2024-03-09 00:24:18 [INFO]	[TRAIN] epoch: 4, iter: 8950/20000, loss: 0.0911, lr: 0.000033, batch_cost: 0.9731, reader_cost: 0.00008, ips: 1.0277 samples/sec | ETA 02:59:12
+2024-03-09 00:25:05 [INFO]	[TRAIN] epoch: 4, iter: 9000/20000, loss: 0.0960, lr: 0.000033, batch_cost: 0.9528, reader_cost: 0.00008, ips: 1.0496 samples/sec | ETA 02:54:40
+2024-03-09 00:25:05 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 00:34:37 [INFO]	[EVAL] #Images: 670 mIoU: 0.5643 Acc: 0.6689 Pre:0.6689 Rec:0.6167 F1:0.6372 Kappa: 0.2754,poacc:0.9535
+2024-03-09 00:34:37 [INFO]	[EVAL] Class IoU: 
+[0.9531 0.1754]
+2024-03-09 00:34:37 [INFO]	[EVAL] Class Acc: 
+[0.9697 0.368 ]
+2024-03-09 00:34:37 [INFO]	[EVAL] Class Pre: 
+[0.9697 0.368 ]
+2024-03-09 00:34:37 [INFO]	[EVAL] Class Rec: 
+[0.9823 0.2511]
+2024-03-09 00:34:37 [INFO]	[EVAL] Class F1: 
+[0.976  0.2985]
+2024-03-09 00:34:37 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 00:35:25 [INFO]	[TRAIN] epoch: 4, iter: 9050/20000, loss: 0.1000, lr: 0.000033, batch_cost: 0.9510, reader_cost: 0.00009, ips: 1.0515 samples/sec | ETA 02:53:33
+2024-03-09 00:36:12 [INFO]	[TRAIN] epoch: 4, iter: 9100/20000, loss: 0.0913, lr: 0.000033, batch_cost: 0.9415, reader_cost: 0.00008, ips: 1.0621 samples/sec | ETA 02:51:02
+2024-03-09 00:36:58 [INFO]	[TRAIN] epoch: 4, iter: 9150/20000, loss: 0.0995, lr: 0.000033, batch_cost: 0.9237, reader_cost: 0.00009, ips: 1.0826 samples/sec | ETA 02:47:01
+2024-03-09 00:37:46 [INFO]	[TRAIN] epoch: 4, iter: 9200/20000, loss: 0.0964, lr: 0.000032, batch_cost: 0.9651, reader_cost: 0.00009, ips: 1.0362 samples/sec | ETA 02:53:42
+2024-03-09 00:37:46 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 00:47:21 [INFO]	[EVAL] #Images: 670 mIoU: 0.5653 Acc: 0.6695 Pre:0.6695 Rec:0.6186 F1:0.6388 Kappa: 0.2785,poacc:0.9535
+2024-03-09 00:47:21 [INFO]	[EVAL] Class IoU: 
+[0.953  0.1777]
+2024-03-09 00:47:21 [INFO]	[EVAL] Class Acc: 
+[0.9699 0.3691]
+2024-03-09 00:47:21 [INFO]	[EVAL] Class Pre: 
+[0.9699 0.3691]
+2024-03-09 00:47:21 [INFO]	[EVAL] Class Rec: 
+[0.9821 0.2551]
+2024-03-09 00:47:21 [INFO]	[EVAL] Class F1: 
+[0.976  0.3017]
+2024-03-09 00:47:21 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 00:48:09 [INFO]	[TRAIN] epoch: 4, iter: 9250/20000, loss: 0.0984, lr: 0.000032, batch_cost: 0.9562, reader_cost: 0.00009, ips: 1.0458 samples/sec | ETA 02:51:19
+2024-03-09 00:48:56 [INFO]	[TRAIN] epoch: 4, iter: 9300/20000, loss: 0.0986, lr: 0.000032, batch_cost: 0.9414, reader_cost: 0.00009, ips: 1.0623 samples/sec | ETA 02:47:52
+2024-03-09 00:49:44 [INFO]	[TRAIN] epoch: 4, iter: 9350/20000, loss: 0.0942, lr: 0.000032, batch_cost: 0.9672, reader_cost: 0.00008, ips: 1.0339 samples/sec | ETA 02:51:40
+2024-03-09 00:50:32 [INFO]	[TRAIN] epoch: 4, iter: 9400/20000, loss: 0.0938, lr: 0.000032, batch_cost: 0.9518, reader_cost: 0.00009, ips: 1.0506 samples/sec | ETA 02:48:09
+2024-03-09 00:50:32 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 01:00:01 [INFO]	[EVAL] #Images: 670 mIoU: 0.5592 Acc: 0.6916 Pre:0.6916 Rec:0.5985 F1:0.6280 Kappa: 0.2585,poacc:0.9573
+2024-03-09 01:00:01 [INFO]	[EVAL] Class IoU: 
+[0.9569 0.1615]
+2024-03-09 01:00:01 [INFO]	[EVAL] Class Acc: 
+[0.9682 0.4149]
+2024-03-09 01:00:01 [INFO]	[EVAL] Class Pre: 
+[0.9682 0.4149]
+2024-03-09 01:00:01 [INFO]	[EVAL] Class Rec: 
+[0.9879 0.2092]
+2024-03-09 01:00:01 [INFO]	[EVAL] Class F1: 
+[0.978  0.2781]
+2024-03-09 01:00:01 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 01:00:49 [INFO]	[TRAIN] epoch: 4, iter: 9450/20000, loss: 0.1010, lr: 0.000032, batch_cost: 0.9496, reader_cost: 0.00009, ips: 1.0531 samples/sec | ETA 02:46:57
+2024-03-09 01:01:37 [INFO]	[TRAIN] epoch: 4, iter: 9500/20000, loss: 0.0987, lr: 0.000032, batch_cost: 0.9543, reader_cost: 0.00009, ips: 1.0479 samples/sec | ETA 02:46:59
+2024-03-09 01:02:24 [INFO]	[TRAIN] epoch: 4, iter: 9550/20000, loss: 0.0962, lr: 0.000031, batch_cost: 0.9475, reader_cost: 0.00009, ips: 1.0554 samples/sec | ETA 02:45:01
+2024-03-09 01:03:12 [INFO]	[TRAIN] epoch: 4, iter: 9600/20000, loss: 0.1005, lr: 0.000031, batch_cost: 0.9584, reader_cost: 0.00010, ips: 1.0434 samples/sec | ETA 02:46:07
+2024-03-09 01:03:12 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 01:12:44 [INFO]	[EVAL] #Images: 670 mIoU: 0.5639 Acc: 0.6863 Pre:0.6863 Rec:0.6083 F1:0.6355 Kappa: 0.2726,poacc:0.9563
+2024-03-09 01:12:44 [INFO]	[EVAL] Class IoU: 
+[0.9559 0.172 ]
+2024-03-09 01:12:44 [INFO]	[EVAL] Class Acc: 
+[0.969  0.4036]
+2024-03-09 01:12:44 [INFO]	[EVAL] Class Pre: 
+[0.969  0.4036]
+2024-03-09 01:12:44 [INFO]	[EVAL] Class Rec: 
+[0.986  0.2305]
+2024-03-09 01:12:44 [INFO]	[EVAL] Class F1: 
+[0.9775 0.2935]
+2024-03-09 01:12:44 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 01:13:32 [INFO]	[TRAIN] epoch: 4, iter: 9650/20000, loss: 0.0950, lr: 0.000031, batch_cost: 0.9580, reader_cost: 0.00008, ips: 1.0438 samples/sec | ETA 02:45:15
+2024-03-09 01:14:21 [INFO]	[TRAIN] epoch: 4, iter: 9700/20000, loss: 0.0905, lr: 0.000031, batch_cost: 0.9756, reader_cost: 0.00008, ips: 1.0250 samples/sec | ETA 02:47:28
+2024-03-09 01:15:10 [INFO]	[TRAIN] epoch: 4, iter: 9750/20000, loss: 0.0911, lr: 0.000031, batch_cost: 0.9889, reader_cost: 0.00009, ips: 1.0112 samples/sec | ETA 02:48:56
+2024-03-09 01:15:59 [INFO]	[TRAIN] epoch: 4, iter: 9800/20000, loss: 0.0871, lr: 0.000031, batch_cost: 0.9734, reader_cost: 0.00009, ips: 1.0274 samples/sec | ETA 02:45:28
+2024-03-09 01:15:59 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 01:25:28 [INFO]	[EVAL] #Images: 670 mIoU: 0.5638 Acc: 0.6763 Pre:0.6763 Rec:0.6122 F1:0.6360 Kappa: 0.2733,poacc:0.9549
+2024-03-09 01:25:28 [INFO]	[EVAL] Class IoU: 
+[0.9544 0.1733]
+2024-03-09 01:25:28 [INFO]	[EVAL] Class Acc: 
+[0.9693 0.3832]
+2024-03-09 01:25:28 [INFO]	[EVAL] Class Pre: 
+[0.9693 0.3832]
+2024-03-09 01:25:28 [INFO]	[EVAL] Class Rec: 
+[0.9841 0.2403]
+2024-03-09 01:25:28 [INFO]	[EVAL] Class F1: 
+[0.9767 0.2954]
+2024-03-09 01:25:28 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 01:26:16 [INFO]	[TRAIN] epoch: 4, iter: 9850/20000, loss: 0.0967, lr: 0.000030, batch_cost: 0.9503, reader_cost: 0.00009, ips: 1.0524 samples/sec | ETA 02:40:45
+2024-03-09 01:27:04 [INFO]	[TRAIN] epoch: 4, iter: 9900/20000, loss: 0.0935, lr: 0.000030, batch_cost: 0.9563, reader_cost: 0.00009, ips: 1.0457 samples/sec | ETA 02:40:58
+2024-03-09 01:27:52 [INFO]	[TRAIN] epoch: 4, iter: 9950/20000, loss: 0.0963, lr: 0.000030, batch_cost: 0.9569, reader_cost: 0.00009, ips: 1.0450 samples/sec | ETA 02:40:17
+2024-03-09 01:28:39 [INFO]	[TRAIN] epoch: 4, iter: 10000/20000, loss: 0.0893, lr: 0.000030, batch_cost: 0.9570, reader_cost: 0.00009, ips: 1.0450 samples/sec | ETA 02:39:29
+2024-03-09 01:28:39 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 01:38:06 [INFO]	[EVAL] #Images: 670 mIoU: 0.5665 Acc: 0.6652 Pre:0.6652 Rec:0.6237 F1:0.6409 Kappa: 0.2825,poacc:0.9525
+2024-03-09 01:38:06 [INFO]	[EVAL] Class IoU: 
+[0.952 0.181]
+2024-03-09 01:38:06 [INFO]	[EVAL] Class Acc: 
+[0.9703 0.3601]
+2024-03-09 01:38:06 [INFO]	[EVAL] Class Pre: 
+[0.9703 0.3601]
+2024-03-09 01:38:06 [INFO]	[EVAL] Class Rec: 
+[0.9806 0.2668]
+2024-03-09 01:38:06 [INFO]	[EVAL] Class F1: 
+[0.9754 0.3065]
+2024-03-09 01:38:06 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 01:38:54 [INFO]	[TRAIN] epoch: 4, iter: 10050/20000, loss: 0.0999, lr: 0.000030, batch_cost: 0.9585, reader_cost: 0.00009, ips: 1.0433 samples/sec | ETA 02:38:57
+2024-03-09 01:39:42 [INFO]	[TRAIN] epoch: 5, iter: 10100/20000, loss: 0.0941, lr: 0.000030, batch_cost: 0.9631, reader_cost: 0.00535, ips: 1.0383 samples/sec | ETA 02:38:54
+2024-03-09 01:40:31 [INFO]	[TRAIN] epoch: 5, iter: 10150/20000, loss: 0.0888, lr: 0.000030, batch_cost: 0.9671, reader_cost: 0.00009, ips: 1.0341 samples/sec | ETA 02:38:45
+2024-03-09 01:41:18 [INFO]	[TRAIN] epoch: 5, iter: 10200/20000, loss: 0.0952, lr: 0.000029, batch_cost: 0.9533, reader_cost: 0.00009, ips: 1.0489 samples/sec | ETA 02:35:42
+2024-03-09 01:41:18 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 01:50:47 [INFO]	[EVAL] #Images: 670 mIoU: 0.5657 Acc: 0.6821 Pre:0.6821 Rec:0.6132 F1:0.6383 Kappa: 0.2781,poacc:0.9556
+2024-03-09 01:50:47 [INFO]	[EVAL] Class IoU: 
+[0.9551 0.1762]
+2024-03-09 01:50:47 [INFO]	[EVAL] Class Acc: 
+[0.9694 0.3947]
+2024-03-09 01:50:47 [INFO]	[EVAL] Class Pre: 
+[0.9694 0.3947]
+2024-03-09 01:50:47 [INFO]	[EVAL] Class Rec: 
+[0.9848 0.2415]
+2024-03-09 01:50:47 [INFO]	[EVAL] Class F1: 
+[0.9771 0.2996]
+2024-03-09 01:50:47 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 01:51:34 [INFO]	[TRAIN] epoch: 5, iter: 10250/20000, loss: 0.0944, lr: 0.000029, batch_cost: 0.9395, reader_cost: 0.00009, ips: 1.0644 samples/sec | ETA 02:32:40
+2024-03-09 01:52:21 [INFO]	[TRAIN] epoch: 5, iter: 10300/20000, loss: 0.0919, lr: 0.000029, batch_cost: 0.9440, reader_cost: 0.00008, ips: 1.0593 samples/sec | ETA 02:32:37
+2024-03-09 01:53:08 [INFO]	[TRAIN] epoch: 5, iter: 10350/20000, loss: 0.0955, lr: 0.000029, batch_cost: 0.9417, reader_cost: 0.00009, ips: 1.0619 samples/sec | ETA 02:31:27
+2024-03-09 01:53:56 [INFO]	[TRAIN] epoch: 5, iter: 10400/20000, loss: 0.0898, lr: 0.000029, batch_cost: 0.9541, reader_cost: 0.00009, ips: 1.0481 samples/sec | ETA 02:32:39
+2024-03-09 01:53:56 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 02:03:33 [INFO]	[EVAL] #Images: 670 mIoU: 0.5642 Acc: 0.6841 Pre:0.6841 Rec:0.6096 F1:0.6360 Kappa: 0.2737,poacc:0.9560
+2024-03-09 02:03:33 [INFO]	[EVAL] Class IoU: 
+[0.9556 0.1729]
+2024-03-09 02:03:33 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.3991]
+2024-03-09 02:03:33 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.3991]
+2024-03-09 02:03:33 [INFO]	[EVAL] Class Rec: 
+[0.9856 0.2337]
+2024-03-09 02:03:33 [INFO]	[EVAL] Class F1: 
+[0.9773 0.2948]
+2024-03-09 02:03:33 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 02:04:21 [INFO]	[TRAIN] epoch: 5, iter: 10450/20000, loss: 0.0849, lr: 0.000029, batch_cost: 0.9617, reader_cost: 0.00010, ips: 1.0398 samples/sec | ETA 02:33:04
+2024-03-09 02:05:08 [INFO]	[TRAIN] epoch: 5, iter: 10500/20000, loss: 0.0874, lr: 0.000029, batch_cost: 0.9469, reader_cost: 0.00009, ips: 1.0561 samples/sec | ETA 02:29:55
+2024-03-09 02:05:56 [INFO]	[TRAIN] epoch: 5, iter: 10550/20000, loss: 0.1032, lr: 0.000028, batch_cost: 0.9519, reader_cost: 0.00009, ips: 1.0506 samples/sec | ETA 02:29:55
+2024-03-09 02:06:45 [INFO]	[TRAIN] epoch: 5, iter: 10600/20000, loss: 0.1010, lr: 0.000028, batch_cost: 0.9724, reader_cost: 0.00009, ips: 1.0284 samples/sec | ETA 02:32:20
+2024-03-09 02:06:45 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 02:16:14 [INFO]	[EVAL] #Images: 670 mIoU: 0.5616 Acc: 0.6988 Pre:0.6988 Rec:0.6005 F1:0.6313 Kappa: 0.2651,poacc:0.9579
+2024-03-09 02:16:14 [INFO]	[EVAL] Class IoU: 
+[0.9575 0.1657]
+2024-03-09 02:16:14 [INFO]	[EVAL] Class Acc: 
+[0.9684 0.4292]
+2024-03-09 02:16:14 [INFO]	[EVAL] Class Pre: 
+[0.9684 0.4292]
+2024-03-09 02:16:14 [INFO]	[EVAL] Class Rec: 
+[0.9884 0.2125]
+2024-03-09 02:16:14 [INFO]	[EVAL] Class F1: 
+[0.9783 0.2843]
+2024-03-09 02:16:14 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 02:17:01 [INFO]	[TRAIN] epoch: 5, iter: 10650/20000, loss: 0.0993, lr: 0.000028, batch_cost: 0.9350, reader_cost: 0.00009, ips: 1.0695 samples/sec | ETA 02:25:42
+2024-03-09 02:17:49 [INFO]	[TRAIN] epoch: 5, iter: 10700/20000, loss: 0.0922, lr: 0.000028, batch_cost: 0.9668, reader_cost: 0.00009, ips: 1.0344 samples/sec | ETA 02:29:50
+2024-03-09 02:18:37 [INFO]	[TRAIN] epoch: 5, iter: 10750/20000, loss: 0.1037, lr: 0.000028, batch_cost: 0.9636, reader_cost: 0.00008, ips: 1.0378 samples/sec | ETA 02:28:33
+2024-03-09 02:19:26 [INFO]	[TRAIN] epoch: 5, iter: 10800/20000, loss: 0.0990, lr: 0.000028, batch_cost: 0.9638, reader_cost: 0.00009, ips: 1.0376 samples/sec | ETA 02:27:46
+2024-03-09 02:19:26 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 02:29:09 [INFO]	[EVAL] #Images: 670 mIoU: 0.5650 Acc: 0.6726 Pre:0.6726 Rec:0.6162 F1:0.6380 Kappa: 0.2771,poacc:0.9541
+2024-03-09 02:29:09 [INFO]	[EVAL] Class IoU: 
+[0.9537 0.1763]
+2024-03-09 02:29:09 [INFO]	[EVAL] Class Acc: 
+[0.9697 0.3755]
+2024-03-09 02:29:09 [INFO]	[EVAL] Class Pre: 
+[0.9697 0.3755]
+2024-03-09 02:29:09 [INFO]	[EVAL] Class Rec: 
+[0.983  0.2495]
+2024-03-09 02:29:09 [INFO]	[EVAL] Class F1: 
+[0.9763 0.2998]
+2024-03-09 02:29:09 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 02:29:56 [INFO]	[TRAIN] epoch: 5, iter: 10850/20000, loss: 0.0994, lr: 0.000027, batch_cost: 0.9506, reader_cost: 0.00008, ips: 1.0520 samples/sec | ETA 02:24:57
+2024-03-09 02:30:43 [INFO]	[TRAIN] epoch: 5, iter: 10900/20000, loss: 0.0931, lr: 0.000027, batch_cost: 0.9279, reader_cost: 0.00009, ips: 1.0777 samples/sec | ETA 02:20:43
+2024-03-09 02:31:30 [INFO]	[TRAIN] epoch: 5, iter: 10950/20000, loss: 0.0883, lr: 0.000027, batch_cost: 0.9361, reader_cost: 0.00009, ips: 1.0682 samples/sec | ETA 02:21:11
+2024-03-09 02:32:16 [INFO]	[TRAIN] epoch: 5, iter: 11000/20000, loss: 0.0941, lr: 0.000027, batch_cost: 0.9297, reader_cost: 0.00009, ips: 1.0756 samples/sec | ETA 02:19:27
+2024-03-09 02:32:16 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 02:41:57 [INFO]	[EVAL] #Images: 670 mIoU: 0.5646 Acc: 0.6763 Pre:0.6763 Rec:0.6137 F1:0.6372 Kappa: 0.2756,poacc:0.9548
+2024-03-09 02:41:57 [INFO]	[EVAL] Class IoU: 
+[0.9544 0.1749]
+2024-03-09 02:41:57 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3832]
+2024-03-09 02:41:57 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3832]
+2024-03-09 02:41:57 [INFO]	[EVAL] Class Rec: 
+[0.9839 0.2434]
+2024-03-09 02:41:57 [INFO]	[EVAL] Class F1: 
+[0.9766 0.2977]
+2024-03-09 02:41:57 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 02:42:45 [INFO]	[TRAIN] epoch: 5, iter: 11050/20000, loss: 0.0972, lr: 0.000027, batch_cost: 0.9495, reader_cost: 0.00009, ips: 1.0532 samples/sec | ETA 02:21:38
+2024-03-09 02:43:31 [INFO]	[TRAIN] epoch: 5, iter: 11100/20000, loss: 0.0993, lr: 0.000027, batch_cost: 0.9311, reader_cost: 0.00009, ips: 1.0740 samples/sec | ETA 02:18:06
+2024-03-09 02:44:19 [INFO]	[TRAIN] epoch: 5, iter: 11150/20000, loss: 0.0893, lr: 0.000027, batch_cost: 0.9464, reader_cost: 0.00009, ips: 1.0566 samples/sec | ETA 02:19:35
+2024-03-09 02:45:06 [INFO]	[TRAIN] epoch: 5, iter: 11200/20000, loss: 0.0902, lr: 0.000026, batch_cost: 0.9533, reader_cost: 0.00009, ips: 1.0490 samples/sec | ETA 02:19:48
+2024-03-09 02:45:06 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 02:54:37 [INFO]	[EVAL] #Images: 670 mIoU: 0.5616 Acc: 0.6904 Pre:0.6904 Rec:0.6028 F1:0.6317 Kappa: 0.2655,poacc:0.9570
+2024-03-09 02:54:37 [INFO]	[EVAL] Class IoU: 
+[0.9566 0.1665]
+2024-03-09 02:54:37 [INFO]	[EVAL] Class Acc: 
+[0.9686 0.4123]
+2024-03-09 02:54:37 [INFO]	[EVAL] Class Pre: 
+[0.9686 0.4123]
+2024-03-09 02:54:37 [INFO]	[EVAL] Class Rec: 
+[0.9872 0.2184]
+2024-03-09 02:54:37 [INFO]	[EVAL] Class F1: 
+[0.9778 0.2855]
+2024-03-09 02:54:37 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 02:55:25 [INFO]	[TRAIN] epoch: 5, iter: 11250/20000, loss: 0.0928, lr: 0.000026, batch_cost: 0.9571, reader_cost: 0.00009, ips: 1.0448 samples/sec | ETA 02:19:34
+2024-03-09 02:56:12 [INFO]	[TRAIN] epoch: 5, iter: 11300/20000, loss: 0.0936, lr: 0.000026, batch_cost: 0.9522, reader_cost: 0.00009, ips: 1.0502 samples/sec | ETA 02:18:04
+2024-03-09 02:57:02 [INFO]	[TRAIN] epoch: 5, iter: 11350/20000, loss: 0.1014, lr: 0.000026, batch_cost: 0.9827, reader_cost: 0.00010, ips: 1.0176 samples/sec | ETA 02:21:40
+2024-03-09 02:57:50 [INFO]	[TRAIN] epoch: 5, iter: 11400/20000, loss: 0.0954, lr: 0.000026, batch_cost: 0.9719, reader_cost: 0.00009, ips: 1.0289 samples/sec | ETA 02:19:18
+2024-03-09 02:57:50 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 03:07:28 [INFO]	[EVAL] #Images: 670 mIoU: 0.5667 Acc: 0.6757 Pre:0.6757 Rec:0.6182 F1:0.6404 Kappa: 0.2818,poacc:0.9544
+2024-03-09 03:07:28 [INFO]	[EVAL] Class IoU: 
+[0.954  0.1795]
+2024-03-09 03:07:28 [INFO]	[EVAL] Class Acc: 
+[0.9698 0.3815]
+2024-03-09 03:07:28 [INFO]	[EVAL] Class Pre: 
+[0.9698 0.3815]
+2024-03-09 03:07:28 [INFO]	[EVAL] Class Rec: 
+[0.9832 0.2532]
+2024-03-09 03:07:28 [INFO]	[EVAL] Class F1: 
+[0.9764 0.3044]
+2024-03-09 03:07:28 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 03:08:16 [INFO]	[TRAIN] epoch: 5, iter: 11450/20000, loss: 0.0954, lr: 0.000026, batch_cost: 0.9590, reader_cost: 0.00008, ips: 1.0428 samples/sec | ETA 02:16:39
+2024-03-09 03:09:04 [INFO]	[TRAIN] epoch: 5, iter: 11500/20000, loss: 0.0945, lr: 0.000026, batch_cost: 0.9579, reader_cost: 0.00009, ips: 1.0439 samples/sec | ETA 02:15:42
+2024-03-09 03:09:52 [INFO]	[TRAIN] epoch: 5, iter: 11550/20000, loss: 0.0951, lr: 0.000025, batch_cost: 0.9558, reader_cost: 0.00009, ips: 1.0462 samples/sec | ETA 02:14:36
+2024-03-09 03:10:41 [INFO]	[TRAIN] epoch: 5, iter: 11600/20000, loss: 0.0964, lr: 0.000025, batch_cost: 0.9796, reader_cost: 0.00008, ips: 1.0208 samples/sec | ETA 02:17:08
+2024-03-09 03:10:41 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 03:20:13 [INFO]	[EVAL] #Images: 670 mIoU: 0.5624 Acc: 0.6742 Pre:0.6742 Rec:0.6103 F1:0.6339 Kappa: 0.2692,poacc:0.9547
+2024-03-09 03:20:13 [INFO]	[EVAL] Class IoU: 
+[0.9543 0.1704]
+2024-03-09 03:20:13 [INFO]	[EVAL] Class Acc: 
+[0.9692 0.3792]
+2024-03-09 03:20:13 [INFO]	[EVAL] Class Pre: 
+[0.9692 0.3792]
+2024-03-09 03:20:13 [INFO]	[EVAL] Class Rec: 
+[0.9841 0.2364]
+2024-03-09 03:20:13 [INFO]	[EVAL] Class F1: 
+[0.9766 0.2913]
+2024-03-09 03:20:13 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 03:21:01 [INFO]	[TRAIN] epoch: 5, iter: 11650/20000, loss: 0.0955, lr: 0.000025, batch_cost: 0.9596, reader_cost: 0.00009, ips: 1.0421 samples/sec | ETA 02:13:32
+2024-03-09 03:21:49 [INFO]	[TRAIN] epoch: 5, iter: 11700/20000, loss: 0.0955, lr: 0.000025, batch_cost: 0.9693, reader_cost: 0.00008, ips: 1.0317 samples/sec | ETA 02:14:04
+2024-03-09 03:22:37 [INFO]	[TRAIN] epoch: 5, iter: 11750/20000, loss: 0.0981, lr: 0.000025, batch_cost: 0.9624, reader_cost: 0.00009, ips: 1.0391 samples/sec | ETA 02:12:19
+2024-03-09 03:23:26 [INFO]	[TRAIN] epoch: 5, iter: 11800/20000, loss: 0.0925, lr: 0.000025, batch_cost: 0.9630, reader_cost: 0.00009, ips: 1.0385 samples/sec | ETA 02:11:36
+2024-03-09 03:23:26 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 03:32:51 [INFO]	[EVAL] #Images: 670 mIoU: 0.5662 Acc: 0.6713 Pre:0.6713 Rec:0.6195 F1:0.6400 Kappa: 0.2809,poacc:0.9537
+2024-03-09 03:32:51 [INFO]	[EVAL] Class IoU: 
+[0.9533 0.1792]
+2024-03-09 03:32:51 [INFO]	[EVAL] Class Acc: 
+[0.9699 0.3727]
+2024-03-09 03:32:51 [INFO]	[EVAL] Class Pre: 
+[0.9699 0.3727]
+2024-03-09 03:32:51 [INFO]	[EVAL] Class Rec: 
+[0.9823 0.2566]
+2024-03-09 03:32:51 [INFO]	[EVAL] Class F1: 
+[0.9761 0.304 ]
+2024-03-09 03:32:51 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 03:33:40 [INFO]	[TRAIN] epoch: 5, iter: 11850/20000, loss: 0.0959, lr: 0.000024, batch_cost: 0.9666, reader_cost: 0.00008, ips: 1.0345 samples/sec | ETA 02:11:18
+2024-03-09 03:34:28 [INFO]	[TRAIN] epoch: 5, iter: 11900/20000, loss: 0.0950, lr: 0.000024, batch_cost: 0.9622, reader_cost: 0.00008, ips: 1.0393 samples/sec | ETA 02:09:53
+2024-03-09 03:35:15 [INFO]	[TRAIN] epoch: 5, iter: 11950/20000, loss: 0.1000, lr: 0.000024, batch_cost: 0.9535, reader_cost: 0.00008, ips: 1.0488 samples/sec | ETA 02:07:55
+2024-03-09 03:36:04 [INFO]	[TRAIN] epoch: 5, iter: 12000/20000, loss: 0.0973, lr: 0.000024, batch_cost: 0.9694, reader_cost: 0.00009, ips: 1.0315 samples/sec | ETA 02:09:15
+2024-03-09 03:36:04 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 03:45:50 [INFO]	[EVAL] #Images: 670 mIoU: 0.5640 Acc: 0.6775 Pre:0.6775 Rec:0.6119 F1:0.6361 Kappa: 0.2735,poacc:0.9551
+2024-03-09 03:45:50 [INFO]	[EVAL] Class IoU: 
+[0.9546 0.1733]
+2024-03-09 03:45:50 [INFO]	[EVAL] Class Acc: 
+[0.9693 0.3858]
+2024-03-09 03:45:50 [INFO]	[EVAL] Class Pre: 
+[0.9693 0.3858]
+2024-03-09 03:45:50 [INFO]	[EVAL] Class Rec: 
+[0.9844 0.2393]
+2024-03-09 03:45:50 [INFO]	[EVAL] Class F1: 
+[0.9768 0.2954]
+2024-03-09 03:45:50 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 03:46:39 [INFO]	[TRAIN] epoch: 5, iter: 12050/20000, loss: 0.0919, lr: 0.000024, batch_cost: 0.9755, reader_cost: 0.00009, ips: 1.0251 samples/sec | ETA 02:09:15
+2024-03-09 03:47:26 [INFO]	[TRAIN] epoch: 5, iter: 12100/20000, loss: 0.1023, lr: 0.000024, batch_cost: 0.9488, reader_cost: 0.00013, ips: 1.0540 samples/sec | ETA 02:04:55
+2024-03-09 03:48:14 [INFO]	[TRAIN] epoch: 5, iter: 12150/20000, loss: 0.0859, lr: 0.000024, batch_cost: 0.9622, reader_cost: 0.00010, ips: 1.0393 samples/sec | ETA 02:05:53
+2024-03-09 03:49:02 [INFO]	[TRAIN] epoch: 5, iter: 12200/20000, loss: 0.0937, lr: 0.000023, batch_cost: 0.9535, reader_cost: 0.00009, ips: 1.0487 samples/sec | ETA 02:03:57
+2024-03-09 03:49:02 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 03:58:31 [INFO]	[EVAL] #Images: 670 mIoU: 0.5632 Acc: 0.6789 Pre:0.6789 Rec:0.6099 F1:0.6349 Kappa: 0.2712,poacc:0.9553
+2024-03-09 03:58:31 [INFO]	[EVAL] Class IoU: 
+[0.9549 0.1715]
+2024-03-09 03:58:31 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.3887]
+2024-03-09 03:58:31 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.3887]
+2024-03-09 03:58:31 [INFO]	[EVAL] Class Rec: 
+[0.9849 0.2349]
+2024-03-09 03:58:31 [INFO]	[EVAL] Class F1: 
+[0.9769 0.2928]
+2024-03-09 03:58:31 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 03:59:19 [INFO]	[TRAIN] epoch: 5, iter: 12250/20000, loss: 0.0969, lr: 0.000023, batch_cost: 0.9674, reader_cost: 0.00009, ips: 1.0337 samples/sec | ETA 02:04:57
+2024-03-09 04:00:08 [INFO]	[TRAIN] epoch: 5, iter: 12300/20000, loss: 0.0943, lr: 0.000023, batch_cost: 0.9661, reader_cost: 0.00009, ips: 1.0350 samples/sec | ETA 02:03:59
+2024-03-09 04:00:56 [INFO]	[TRAIN] epoch: 5, iter: 12350/20000, loss: 0.0943, lr: 0.000023, batch_cost: 0.9652, reader_cost: 0.00009, ips: 1.0361 samples/sec | ETA 02:03:03
+2024-03-09 04:01:45 [INFO]	[TRAIN] epoch: 5, iter: 12400/20000, loss: 0.0934, lr: 0.000023, batch_cost: 0.9844, reader_cost: 0.00009, ips: 1.0159 samples/sec | ETA 02:04:41
+2024-03-09 04:01:45 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 04:11:18 [INFO]	[EVAL] #Images: 670 mIoU: 0.5604 Acc: 0.6832 Pre:0.6832 Rec:0.6031 F1:0.6303 Kappa: 0.2626,poacc:0.9562
+2024-03-09 04:11:18 [INFO]	[EVAL] Class IoU: 
+[0.9558 0.165 ]
+2024-03-09 04:11:18 [INFO]	[EVAL] Class Acc: 
+[0.9686 0.3979]
+2024-03-09 04:11:18 [INFO]	[EVAL] Class Pre: 
+[0.9686 0.3979]
+2024-03-09 04:11:18 [INFO]	[EVAL] Class Rec: 
+[0.9864 0.2199]
+2024-03-09 04:11:18 [INFO]	[EVAL] Class F1: 
+[0.9774 0.2832]
+2024-03-09 04:11:18 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 04:12:07 [INFO]	[TRAIN] epoch: 5, iter: 12450/20000, loss: 0.0967, lr: 0.000023, batch_cost: 0.9755, reader_cost: 0.00009, ips: 1.0251 samples/sec | ETA 02:02:45
+2024-03-09 04:12:55 [INFO]	[TRAIN] epoch: 5, iter: 12500/20000, loss: 0.0966, lr: 0.000023, batch_cost: 0.9728, reader_cost: 0.00009, ips: 1.0279 samples/sec | ETA 02:01:36
+2024-03-09 04:13:44 [INFO]	[TRAIN] epoch: 5, iter: 12550/20000, loss: 0.0893, lr: 0.000022, batch_cost: 0.9735, reader_cost: 0.00009, ips: 1.0272 samples/sec | ETA 02:00:52
+2024-03-09 04:14:33 [INFO]	[TRAIN] epoch: 5, iter: 12600/20000, loss: 0.0889, lr: 0.000022, batch_cost: 0.9802, reader_cost: 0.00009, ips: 1.0202 samples/sec | ETA 02:00:53
+2024-03-09 04:14:33 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 04:24:06 [INFO]	[EVAL] #Images: 670 mIoU: 0.5627 Acc: 0.6893 Pre:0.6893 Rec:0.6051 F1:0.6334 Kappa: 0.2688,poacc:0.9568
+2024-03-09 04:24:06 [INFO]	[EVAL] Class IoU: 
+[0.9564 0.169 ]
+2024-03-09 04:24:06 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4098]
+2024-03-09 04:24:06 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4098]
+2024-03-09 04:24:06 [INFO]	[EVAL] Class Rec: 
+[0.9868 0.2233]
+2024-03-09 04:24:06 [INFO]	[EVAL] Class F1: 
+[0.9777 0.2891]
+2024-03-09 04:24:07 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 04:24:55 [INFO]	[TRAIN] epoch: 6, iter: 12650/20000, loss: 0.0887, lr: 0.000022, batch_cost: 0.9646, reader_cost: 0.00611, ips: 1.0367 samples/sec | ETA 01:58:10
+2024-03-09 04:25:43 [INFO]	[TRAIN] epoch: 6, iter: 12700/20000, loss: 0.0855, lr: 0.000022, batch_cost: 0.9552, reader_cost: 0.00009, ips: 1.0469 samples/sec | ETA 01:56:12
+2024-03-09 04:26:31 [INFO]	[TRAIN] epoch: 6, iter: 12750/20000, loss: 0.0892, lr: 0.000022, batch_cost: 0.9648, reader_cost: 0.00009, ips: 1.0365 samples/sec | ETA 01:56:34
+2024-03-09 04:27:20 [INFO]	[TRAIN] epoch: 6, iter: 12800/20000, loss: 0.0842, lr: 0.000022, batch_cost: 0.9755, reader_cost: 0.00008, ips: 1.0251 samples/sec | ETA 01:57:03
+2024-03-09 04:27:20 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 04:36:51 [INFO]	[EVAL] #Images: 670 mIoU: 0.5651 Acc: 0.6701 Pre:0.6701 Rec:0.6177 F1:0.6383 Kappa: 0.2775,poacc:0.9537
+2024-03-09 04:36:51 [INFO]	[EVAL] Class IoU: 
+[0.9532 0.1769]
+2024-03-09 04:36:51 [INFO]	[EVAL] Class Acc: 
+[0.9698 0.3704]
+2024-03-09 04:36:51 [INFO]	[EVAL] Class Pre: 
+[0.9698 0.3704]
+2024-03-09 04:36:51 [INFO]	[EVAL] Class Rec: 
+[0.9824 0.253 ]
+2024-03-09 04:36:51 [INFO]	[EVAL] Class F1: 
+[0.976  0.3006]
+2024-03-09 04:36:51 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 04:37:39 [INFO]	[TRAIN] epoch: 6, iter: 12850/20000, loss: 0.0925, lr: 0.000021, batch_cost: 0.9605, reader_cost: 0.00009, ips: 1.0411 samples/sec | ETA 01:54:27
+2024-03-09 04:38:27 [INFO]	[TRAIN] epoch: 6, iter: 12900/20000, loss: 0.0846, lr: 0.000021, batch_cost: 0.9653, reader_cost: 0.00009, ips: 1.0359 samples/sec | ETA 01:54:13
+2024-03-09 04:39:15 [INFO]	[TRAIN] epoch: 6, iter: 12950/20000, loss: 0.0887, lr: 0.000021, batch_cost: 0.9578, reader_cost: 0.00009, ips: 1.0441 samples/sec | ETA 01:52:32
+2024-03-09 04:40:03 [INFO]	[TRAIN] epoch: 6, iter: 13000/20000, loss: 0.0893, lr: 0.000021, batch_cost: 0.9659, reader_cost: 0.00009, ips: 1.0353 samples/sec | ETA 01:52:41
+2024-03-09 04:40:03 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 04:49:33 [INFO]	[EVAL] #Images: 670 mIoU: 0.5645 Acc: 0.6731 Pre:0.6731 Rec:0.6150 F1:0.6372 Kappa: 0.2756,poacc:0.9543
+2024-03-09 04:49:33 [INFO]	[EVAL] Class IoU: 
+[0.9538 0.1752]
+2024-03-09 04:49:33 [INFO]	[EVAL] Class Acc: 
+[0.9696 0.3767]
+2024-03-09 04:49:33 [INFO]	[EVAL] Class Pre: 
+[0.9696 0.3767]
+2024-03-09 04:49:33 [INFO]	[EVAL] Class Rec: 
+[0.9833 0.2467]
+2024-03-09 04:49:33 [INFO]	[EVAL] Class F1: 
+[0.9764 0.2981]
+2024-03-09 04:49:33 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 04:50:21 [INFO]	[TRAIN] epoch: 6, iter: 13050/20000, loss: 0.0912, lr: 0.000021, batch_cost: 0.9575, reader_cost: 0.00009, ips: 1.0444 samples/sec | ETA 01:50:54
+2024-03-09 04:51:09 [INFO]	[TRAIN] epoch: 6, iter: 13100/20000, loss: 0.0908, lr: 0.000021, batch_cost: 0.9743, reader_cost: 0.00009, ips: 1.0263 samples/sec | ETA 01:52:02
+2024-03-09 04:51:57 [INFO]	[TRAIN] epoch: 6, iter: 13150/20000, loss: 0.0894, lr: 0.000021, batch_cost: 0.9557, reader_cost: 0.00009, ips: 1.0463 samples/sec | ETA 01:49:06
+2024-03-09 04:52:47 [INFO]	[TRAIN] epoch: 6, iter: 13200/20000, loss: 0.0872, lr: 0.000020, batch_cost: 0.9929, reader_cost: 0.00009, ips: 1.0072 samples/sec | ETA 01:52:31
+2024-03-09 04:52:47 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 05:02:18 [INFO]	[EVAL] #Images: 670 mIoU: 0.5639 Acc: 0.6504 Pre:0.6504 Rec:0.6290 F1:0.6387 Kappa: 0.2776,poacc:0.9492
+2024-03-09 05:02:18 [INFO]	[EVAL] Class IoU: 
+[0.9487 0.1791]
+2024-03-09 05:02:18 [INFO]	[EVAL] Class Acc: 
+[0.9707 0.3301]
+2024-03-09 05:02:18 [INFO]	[EVAL] Class Pre: 
+[0.9707 0.3301]
+2024-03-09 05:02:18 [INFO]	[EVAL] Class Rec: 
+[0.9766 0.2813]
+2024-03-09 05:02:18 [INFO]	[EVAL] Class F1: 
+[0.9737 0.3037]
+2024-03-09 05:02:18 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 05:03:07 [INFO]	[TRAIN] epoch: 6, iter: 13250/20000, loss: 0.0942, lr: 0.000020, batch_cost: 0.9742, reader_cost: 0.00009, ips: 1.0265 samples/sec | ETA 01:49:35
+2024-03-09 05:03:55 [INFO]	[TRAIN] epoch: 6, iter: 13300/20000, loss: 0.0889, lr: 0.000020, batch_cost: 0.9727, reader_cost: 0.00008, ips: 1.0281 samples/sec | ETA 01:48:37
+2024-03-09 05:04:44 [INFO]	[TRAIN] epoch: 6, iter: 13350/20000, loss: 0.0895, lr: 0.000020, batch_cost: 0.9841, reader_cost: 0.00009, ips: 1.0162 samples/sec | ETA 01:49:04
+2024-03-09 05:05:33 [INFO]	[TRAIN] epoch: 6, iter: 13400/20000, loss: 0.0884, lr: 0.000020, batch_cost: 0.9744, reader_cost: 0.00009, ips: 1.0263 samples/sec | ETA 01:47:10
+2024-03-09 05:05:33 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 05:15:03 [INFO]	[EVAL] #Images: 670 mIoU: 0.5600 Acc: 0.6912 Pre:0.6912 Rec:0.6000 F1:0.6293 Kappa: 0.2610,poacc:0.9572
+2024-03-09 05:15:03 [INFO]	[EVAL] Class IoU: 
+[0.9568 0.1633]
+2024-03-09 05:15:03 [INFO]	[EVAL] Class Acc: 
+[0.9684 0.414 ]
+2024-03-09 05:15:03 [INFO]	[EVAL] Class Pre: 
+[0.9684 0.414 ]
+2024-03-09 05:15:03 [INFO]	[EVAL] Class Rec: 
+[0.9877 0.2123]
+2024-03-09 05:15:03 [INFO]	[EVAL] Class F1: 
+[0.9779 0.2807]
+2024-03-09 05:15:03 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 05:15:52 [INFO]	[TRAIN] epoch: 6, iter: 13450/20000, loss: 0.0981, lr: 0.000020, batch_cost: 0.9803, reader_cost: 0.00009, ips: 1.0201 samples/sec | ETA 01:47:01
+2024-03-09 05:16:41 [INFO]	[TRAIN] epoch: 6, iter: 13500/20000, loss: 0.0890, lr: 0.000020, batch_cost: 0.9703, reader_cost: 0.00009, ips: 1.0307 samples/sec | ETA 01:45:06
+2024-03-09 05:17:30 [INFO]	[TRAIN] epoch: 6, iter: 13550/20000, loss: 0.0897, lr: 0.000019, batch_cost: 0.9773, reader_cost: 0.00009, ips: 1.0233 samples/sec | ETA 01:45:03
+2024-03-09 05:18:18 [INFO]	[TRAIN] epoch: 6, iter: 13600/20000, loss: 0.0915, lr: 0.000019, batch_cost: 0.9696, reader_cost: 0.00009, ips: 1.0314 samples/sec | ETA 01:43:25
+2024-03-09 05:18:18 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 05:27:45 [INFO]	[EVAL] #Images: 670 mIoU: 0.5641 Acc: 0.6689 Pre:0.6689 Rec:0.6163 F1:0.6370 Kappa: 0.2748,poacc:0.9536
+2024-03-09 05:27:45 [INFO]	[EVAL] Class IoU: 
+[0.9531 0.175 ]
+2024-03-09 05:27:45 [INFO]	[EVAL] Class Acc: 
+[0.9697 0.3681]
+2024-03-09 05:27:45 [INFO]	[EVAL] Class Pre: 
+[0.9697 0.3681]
+2024-03-09 05:27:45 [INFO]	[EVAL] Class Rec: 
+[0.9824 0.2502]
+2024-03-09 05:27:45 [INFO]	[EVAL] Class F1: 
+[0.976  0.2979]
+2024-03-09 05:27:45 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 05:28:34 [INFO]	[TRAIN] epoch: 6, iter: 13650/20000, loss: 0.0806, lr: 0.000019, batch_cost: 0.9700, reader_cost: 0.00009, ips: 1.0309 samples/sec | ETA 01:42:39
+2024-03-09 05:29:22 [INFO]	[TRAIN] epoch: 6, iter: 13700/20000, loss: 0.0866, lr: 0.000019, batch_cost: 0.9586, reader_cost: 0.00010, ips: 1.0432 samples/sec | ETA 01:40:38
+2024-03-09 05:30:10 [INFO]	[TRAIN] epoch: 6, iter: 13750/20000, loss: 0.0902, lr: 0.000019, batch_cost: 0.9595, reader_cost: 0.00009, ips: 1.0422 samples/sec | ETA 01:39:56
+2024-03-09 05:30:59 [INFO]	[TRAIN] epoch: 6, iter: 13800/20000, loss: 0.0882, lr: 0.000019, batch_cost: 0.9836, reader_cost: 0.00009, ips: 1.0167 samples/sec | ETA 01:41:38
+2024-03-09 05:30:59 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 05:40:34 [INFO]	[EVAL] #Images: 670 mIoU: 0.5624 Acc: 0.6793 Pre:0.6793 Rec:0.6082 F1:0.6337 Kappa: 0.2689,poacc:0.9555
+2024-03-09 05:40:34 [INFO]	[EVAL] Class IoU: 
+[0.9551 0.1698]
+2024-03-09 05:40:34 [INFO]	[EVAL] Class Acc: 
+[0.969  0.3897]
+2024-03-09 05:40:34 [INFO]	[EVAL] Class Pre: 
+[0.969  0.3897]
+2024-03-09 05:40:34 [INFO]	[EVAL] Class Rec: 
+[0.9852 0.2313]
+2024-03-09 05:40:34 [INFO]	[EVAL] Class F1: 
+[0.977  0.2903]
+2024-03-09 05:40:34 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 05:41:20 [INFO]	[TRAIN] epoch: 6, iter: 13850/20000, loss: 0.0870, lr: 0.000018, batch_cost: 0.9311, reader_cost: 0.00014, ips: 1.0739 samples/sec | ETA 01:35:26
+2024-03-09 05:42:08 [INFO]	[TRAIN] epoch: 6, iter: 13900/20000, loss: 0.0914, lr: 0.000018, batch_cost: 0.9633, reader_cost: 0.00009, ips: 1.0381 samples/sec | ETA 01:37:55
+2024-03-09 05:42:57 [INFO]	[TRAIN] epoch: 6, iter: 13950/20000, loss: 0.0915, lr: 0.000018, batch_cost: 0.9648, reader_cost: 0.00009, ips: 1.0365 samples/sec | ETA 01:37:16
+2024-03-09 05:43:44 [INFO]	[TRAIN] epoch: 6, iter: 14000/20000, loss: 0.0858, lr: 0.000018, batch_cost: 0.9377, reader_cost: 0.00009, ips: 1.0665 samples/sec | ETA 01:33:45
+2024-03-09 05:43:44 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 05:53:14 [INFO]	[EVAL] #Images: 670 mIoU: 0.5622 Acc: 0.6861 Pre:0.6861 Rec:0.6053 F1:0.6328 Kappa: 0.2676,poacc:0.9564
+2024-03-09 05:53:14 [INFO]	[EVAL] Class IoU: 
+[0.956  0.1684]
+2024-03-09 05:53:14 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4034]
+2024-03-09 05:53:14 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4034]
+2024-03-09 05:53:14 [INFO]	[EVAL] Class Rec: 
+[0.9864 0.2242]
+2024-03-09 05:53:14 [INFO]	[EVAL] Class F1: 
+[0.9775 0.2882]
+2024-03-09 05:53:14 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 05:54:01 [INFO]	[TRAIN] epoch: 6, iter: 14050/20000, loss: 0.0975, lr: 0.000018, batch_cost: 0.9351, reader_cost: 0.00009, ips: 1.0694 samples/sec | ETA 01:32:43
+2024-03-09 05:54:48 [INFO]	[TRAIN] epoch: 6, iter: 14100/20000, loss: 0.0951, lr: 0.000018, batch_cost: 0.9493, reader_cost: 0.00009, ips: 1.0534 samples/sec | ETA 01:33:20
+2024-03-09 05:55:36 [INFO]	[TRAIN] epoch: 6, iter: 14150/20000, loss: 0.1021, lr: 0.000018, batch_cost: 0.9484, reader_cost: 0.00009, ips: 1.0544 samples/sec | ETA 01:32:27
+2024-03-09 05:56:24 [INFO]	[TRAIN] epoch: 6, iter: 14200/20000, loss: 0.0897, lr: 0.000017, batch_cost: 0.9561, reader_cost: 0.00009, ips: 1.0459 samples/sec | ETA 01:32:25
+2024-03-09 05:56:24 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 06:05:56 [INFO]	[EVAL] #Images: 670 mIoU: 0.5634 Acc: 0.6880 Pre:0.6880 Rec:0.6068 F1:0.6346 Kappa: 0.2711,poacc:0.9566
+2024-03-09 06:05:56 [INFO]	[EVAL] Class IoU: 
+[0.9562 0.1707]
+2024-03-09 06:05:56 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.4071]
+2024-03-09 06:05:56 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.4071]
+2024-03-09 06:05:56 [INFO]	[EVAL] Class Rec: 
+[0.9864 0.2272]
+2024-03-09 06:05:56 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2916]
+2024-03-09 06:05:56 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 06:06:44 [INFO]	[TRAIN] epoch: 6, iter: 14250/20000, loss: 0.1045, lr: 0.000017, batch_cost: 0.9615, reader_cost: 0.00008, ips: 1.0401 samples/sec | ETA 01:32:08
+2024-03-09 06:07:32 [INFO]	[TRAIN] epoch: 6, iter: 14300/20000, loss: 0.1038, lr: 0.000017, batch_cost: 0.9607, reader_cost: 0.00009, ips: 1.0409 samples/sec | ETA 01:31:16
+2024-03-09 06:08:20 [INFO]	[TRAIN] epoch: 6, iter: 14350/20000, loss: 0.1017, lr: 0.000017, batch_cost: 0.9529, reader_cost: 0.00009, ips: 1.0494 samples/sec | ETA 01:29:44
+2024-03-09 06:09:08 [INFO]	[TRAIN] epoch: 6, iter: 14400/20000, loss: 0.1013, lr: 0.000017, batch_cost: 0.9683, reader_cost: 0.00009, ips: 1.0327 samples/sec | ETA 01:30:22
+2024-03-09 06:09:08 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 06:18:45 [INFO]	[EVAL] #Images: 670 mIoU: 0.5640 Acc: 0.6946 Pre:0.6946 Rec:0.6056 F1:0.6350 Kappa: 0.2722,poacc:0.9573
+2024-03-09 06:18:45 [INFO]	[EVAL] Class IoU: 
+[0.9569 0.171 ]
+2024-03-09 06:18:45 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4204]
+2024-03-09 06:18:45 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4204]
+2024-03-09 06:18:45 [INFO]	[EVAL] Class Rec: 
+[0.9874 0.2238]
+2024-03-09 06:18:45 [INFO]	[EVAL] Class F1: 
+[0.978  0.2921]
+2024-03-09 06:18:46 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 06:19:32 [INFO]	[TRAIN] epoch: 6, iter: 14450/20000, loss: 0.1049, lr: 0.000017, batch_cost: 0.9254, reader_cost: 0.00009, ips: 1.0807 samples/sec | ETA 01:25:35
+2024-03-09 06:20:20 [INFO]	[TRAIN] epoch: 6, iter: 14500/20000, loss: 0.1012, lr: 0.000017, batch_cost: 0.9645, reader_cost: 0.00008, ips: 1.0368 samples/sec | ETA 01:28:24
+2024-03-09 06:21:10 [INFO]	[TRAIN] epoch: 6, iter: 14550/20000, loss: 0.0961, lr: 0.000016, batch_cost: 0.9954, reader_cost: 0.00009, ips: 1.0046 samples/sec | ETA 01:30:25
+2024-03-09 06:21:57 [INFO]	[TRAIN] epoch: 6, iter: 14600/20000, loss: 0.0986, lr: 0.000016, batch_cost: 0.9496, reader_cost: 0.00008, ips: 1.0531 samples/sec | ETA 01:25:27
+2024-03-09 06:21:57 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 06:31:24 [INFO]	[EVAL] #Images: 670 mIoU: 0.5654 Acc: 0.6890 Pre:0.6890 Rec:0.6099 F1:0.6374 Kappa: 0.2766,poacc:0.9565
+2024-03-09 06:31:24 [INFO]	[EVAL] Class IoU: 
+[0.9561 0.1746]
+2024-03-09 06:31:24 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.4089]
+2024-03-09 06:31:24 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.4089]
+2024-03-09 06:31:24 [INFO]	[EVAL] Class Rec: 
+[0.9862 0.2336]
+2024-03-09 06:31:24 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2973]
+2024-03-09 06:31:25 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 06:32:13 [INFO]	[TRAIN] epoch: 6, iter: 14650/20000, loss: 0.0974, lr: 0.000016, batch_cost: 0.9606, reader_cost: 0.00009, ips: 1.0410 samples/sec | ETA 01:25:39
+2024-03-09 06:33:01 [INFO]	[TRAIN] epoch: 6, iter: 14700/20000, loss: 0.0953, lr: 0.000016, batch_cost: 0.9739, reader_cost: 0.00008, ips: 1.0268 samples/sec | ETA 01:26:01
+2024-03-09 06:33:51 [INFO]	[TRAIN] epoch: 6, iter: 14750/20000, loss: 0.1028, lr: 0.000016, batch_cost: 0.9870, reader_cost: 0.00009, ips: 1.0131 samples/sec | ETA 01:26:21
+2024-03-09 06:34:40 [INFO]	[TRAIN] epoch: 6, iter: 14800/20000, loss: 0.0957, lr: 0.000016, batch_cost: 0.9794, reader_cost: 0.00009, ips: 1.0210 samples/sec | ETA 01:24:52
+2024-03-09 06:34:40 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 06:44:14 [INFO]	[EVAL] #Images: 670 mIoU: 0.5663 Acc: 0.6630 Pre:0.6630 Rec:0.6247 F1:0.6409 Kappa: 0.2822,poacc:0.9520
+2024-03-09 06:44:14 [INFO]	[EVAL] Class IoU: 
+[0.9515 0.1811]
+2024-03-09 06:44:14 [INFO]	[EVAL] Class Acc: 
+[0.9704 0.3556]
+2024-03-09 06:44:14 [INFO]	[EVAL] Class Pre: 
+[0.9704 0.3556]
+2024-03-09 06:44:14 [INFO]	[EVAL] Class Rec: 
+[0.98   0.2695]
+2024-03-09 06:44:14 [INFO]	[EVAL] Class F1: 
+[0.9751 0.3066]
+2024-03-09 06:44:15 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 06:45:02 [INFO]	[TRAIN] epoch: 6, iter: 14850/20000, loss: 0.0986, lr: 0.000015, batch_cost: 0.9411, reader_cost: 0.00009, ips: 1.0626 samples/sec | ETA 01:20:46
+2024-03-09 06:45:51 [INFO]	[TRAIN] epoch: 6, iter: 14900/20000, loss: 0.0979, lr: 0.000015, batch_cost: 0.9776, reader_cost: 0.00009, ips: 1.0230 samples/sec | ETA 01:23:05
+2024-03-09 06:46:38 [INFO]	[TRAIN] epoch: 6, iter: 14950/20000, loss: 0.1065, lr: 0.000015, batch_cost: 0.9572, reader_cost: 0.00009, ips: 1.0447 samples/sec | ETA 01:20:33
+2024-03-09 06:47:26 [INFO]	[TRAIN] epoch: 6, iter: 15000/20000, loss: 0.0986, lr: 0.000015, batch_cost: 0.9549, reader_cost: 0.00009, ips: 1.0473 samples/sec | ETA 01:19:34
+2024-03-09 06:47:26 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 06:56:51 [INFO]	[EVAL] #Images: 670 mIoU: 0.5606 Acc: 0.7000 Pre:0.7000 Rec:0.5986 F1:0.6297 Kappa: 0.2622,poacc:0.9580
+2024-03-09 06:56:51 [INFO]	[EVAL] Class IoU: 
+[0.9577 0.1635]
+2024-03-09 06:56:51 [INFO]	[EVAL] Class Acc: 
+[0.9682 0.4318]
+2024-03-09 06:56:51 [INFO]	[EVAL] Class Pre: 
+[0.9682 0.4318]
+2024-03-09 06:56:51 [INFO]	[EVAL] Class Rec: 
+[0.9888 0.2083]
+2024-03-09 06:56:51 [INFO]	[EVAL] Class F1: 
+[0.9784 0.2811]
+2024-03-09 06:56:51 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 06:57:39 [INFO]	[TRAIN] epoch: 6, iter: 15050/20000, loss: 0.1008, lr: 0.000015, batch_cost: 0.9504, reader_cost: 0.00010, ips: 1.0522 samples/sec | ETA 01:18:24
+2024-03-09 06:58:25 [INFO]	[TRAIN] epoch: 6, iter: 15100/20000, loss: 0.0967, lr: 0.000015, batch_cost: 0.9270, reader_cost: 0.00009, ips: 1.0788 samples/sec | ETA 01:15:42
+2024-03-09 06:59:13 [INFO]	[TRAIN] epoch: 7, iter: 15150/20000, loss: 0.1006, lr: 0.000015, batch_cost: 0.9508, reader_cost: 0.00548, ips: 1.0517 samples/sec | ETA 01:16:51
+2024-03-09 07:00:00 [INFO]	[TRAIN] epoch: 7, iter: 15200/20000, loss: 0.0947, lr: 0.000014, batch_cost: 0.9501, reader_cost: 0.00010, ips: 1.0525 samples/sec | ETA 01:16:00
+2024-03-09 07:00:00 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 07:09:23 [INFO]	[EVAL] #Images: 670 mIoU: 0.5627 Acc: 0.6841 Pre:0.6841 Rec:0.6069 F1:0.6338 Kappa: 0.2693,poacc:0.9561
+2024-03-09 07:09:23 [INFO]	[EVAL] Class IoU: 
+[0.9557 0.1697]
+2024-03-09 07:09:23 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.3993]
+2024-03-09 07:09:23 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.3993]
+2024-03-09 07:09:23 [INFO]	[EVAL] Class Rec: 
+[0.9859 0.2279]
+2024-03-09 07:09:23 [INFO]	[EVAL] Class F1: 
+[0.9774 0.2902]
+2024-03-09 07:09:23 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 07:10:10 [INFO]	[TRAIN] epoch: 7, iter: 15250/20000, loss: 0.0931, lr: 0.000014, batch_cost: 0.9317, reader_cost: 0.00008, ips: 1.0733 samples/sec | ETA 01:13:45
+2024-03-09 07:10:58 [INFO]	[TRAIN] epoch: 7, iter: 15300/20000, loss: 0.0975, lr: 0.000014, batch_cost: 0.9607, reader_cost: 0.00010, ips: 1.0409 samples/sec | ETA 01:15:15
+2024-03-09 07:11:46 [INFO]	[TRAIN] epoch: 7, iter: 15350/20000, loss: 0.0975, lr: 0.000014, batch_cost: 0.9614, reader_cost: 0.00010, ips: 1.0402 samples/sec | ETA 01:14:30
+2024-03-09 07:12:34 [INFO]	[TRAIN] epoch: 7, iter: 15400/20000, loss: 0.0948, lr: 0.000014, batch_cost: 0.9590, reader_cost: 0.00009, ips: 1.0427 samples/sec | ETA 01:13:31
+2024-03-09 07:12:34 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 07:22:06 [INFO]	[EVAL] #Images: 670 mIoU: 0.5639 Acc: 0.6680 Pre:0.6680 Rec:0.6165 F1:0.6368 Kappa: 0.2744,poacc:0.9534
+2024-03-09 07:22:06 [INFO]	[EVAL] Class IoU: 
+[0.953  0.1749]
+2024-03-09 07:22:06 [INFO]	[EVAL] Class Acc: 
+[0.9697 0.3663]
+2024-03-09 07:22:06 [INFO]	[EVAL] Class Pre: 
+[0.9697 0.3663]
+2024-03-09 07:22:06 [INFO]	[EVAL] Class Rec: 
+[0.9822 0.2507]
+2024-03-09 07:22:06 [INFO]	[EVAL] Class F1: 
+[0.9759 0.2977]
+2024-03-09 07:22:06 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 07:22:54 [INFO]	[TRAIN] epoch: 7, iter: 15450/20000, loss: 0.0908, lr: 0.000014, batch_cost: 0.9542, reader_cost: 0.00009, ips: 1.0480 samples/sec | ETA 01:12:21
+2024-03-09 07:23:42 [INFO]	[TRAIN] epoch: 7, iter: 15500/20000, loss: 0.0986, lr: 0.000014, batch_cost: 0.9587, reader_cost: 0.00009, ips: 1.0431 samples/sec | ETA 01:11:53
+2024-03-09 07:24:30 [INFO]	[TRAIN] epoch: 7, iter: 15550/20000, loss: 0.0962, lr: 0.000013, batch_cost: 0.9541, reader_cost: 0.00009, ips: 1.0482 samples/sec | ETA 01:10:45
+2024-03-09 07:25:17 [INFO]	[TRAIN] epoch: 7, iter: 15600/20000, loss: 0.0869, lr: 0.000013, batch_cost: 0.9350, reader_cost: 0.00009, ips: 1.0695 samples/sec | ETA 01:08:33
+2024-03-09 07:25:17 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 07:35:01 [INFO]	[EVAL] #Images: 670 mIoU: 0.5662 Acc: 0.6640 Pre:0.6640 Rec:0.6239 F1:0.6407 Kappa: 0.2819,poacc:0.9522
+2024-03-09 07:35:01 [INFO]	[EVAL] Class IoU: 
+[0.9517 0.1807]
+2024-03-09 07:35:01 [INFO]	[EVAL] Class Acc: 
+[0.9703 0.3577]
+2024-03-09 07:35:01 [INFO]	[EVAL] Class Pre: 
+[0.9703 0.3577]
+2024-03-09 07:35:01 [INFO]	[EVAL] Class Rec: 
+[0.9803 0.2675]
+2024-03-09 07:35:01 [INFO]	[EVAL] Class F1: 
+[0.9753 0.3061]
+2024-03-09 07:35:01 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 07:35:50 [INFO]	[TRAIN] epoch: 7, iter: 15650/20000, loss: 0.0895, lr: 0.000013, batch_cost: 0.9754, reader_cost: 0.00009, ips: 1.0252 samples/sec | ETA 01:10:42
+2024-03-09 07:36:38 [INFO]	[TRAIN] epoch: 7, iter: 15700/20000, loss: 0.0850, lr: 0.000013, batch_cost: 0.9544, reader_cost: 0.00008, ips: 1.0478 samples/sec | ETA 01:08:23
+2024-03-09 07:37:26 [INFO]	[TRAIN] epoch: 7, iter: 15750/20000, loss: 0.0843, lr: 0.000013, batch_cost: 0.9559, reader_cost: 0.00008, ips: 1.0461 samples/sec | ETA 01:07:42
+2024-03-09 07:38:14 [INFO]	[TRAIN] epoch: 7, iter: 15800/20000, loss: 0.0957, lr: 0.000013, batch_cost: 0.9619, reader_cost: 0.00008, ips: 1.0396 samples/sec | ETA 01:07:20
+2024-03-09 07:38:14 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 07:47:41 [INFO]	[EVAL] #Images: 670 mIoU: 0.5650 Acc: 0.6691 Pre:0.6691 Rec:0.6180 F1:0.6383 Kappa: 0.2774,poacc:0.9535
+2024-03-09 07:47:41 [INFO]	[EVAL] Class IoU: 
+[0.953  0.1769]
+2024-03-09 07:47:41 [INFO]	[EVAL] Class Acc: 
+[0.9698 0.3685]
+2024-03-09 07:47:41 [INFO]	[EVAL] Class Pre: 
+[0.9698 0.3685]
+2024-03-09 07:47:41 [INFO]	[EVAL] Class Rec: 
+[0.9822 0.2538]
+2024-03-09 07:47:41 [INFO]	[EVAL] Class F1: 
+[0.9759 0.3006]
+2024-03-09 07:47:41 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 07:48:29 [INFO]	[TRAIN] epoch: 7, iter: 15850/20000, loss: 0.0936, lr: 0.000012, batch_cost: 0.9479, reader_cost: 0.00009, ips: 1.0549 samples/sec | ETA 01:05:33
+2024-03-09 07:49:17 [INFO]	[TRAIN] epoch: 7, iter: 15900/20000, loss: 0.0983, lr: 0.000012, batch_cost: 0.9764, reader_cost: 0.00010, ips: 1.0242 samples/sec | ETA 01:06:43
+2024-03-09 07:50:05 [INFO]	[TRAIN] epoch: 7, iter: 15950/20000, loss: 0.0949, lr: 0.000012, batch_cost: 0.9613, reader_cost: 0.00008, ips: 1.0403 samples/sec | ETA 01:04:53
+2024-03-09 07:50:55 [INFO]	[TRAIN] epoch: 7, iter: 16000/20000, loss: 0.0936, lr: 0.000012, batch_cost: 0.9845, reader_cost: 0.00009, ips: 1.0157 samples/sec | ETA 01:05:38
+2024-03-09 07:50:55 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 08:00:41 [INFO]	[EVAL] #Images: 670 mIoU: 0.5620 Acc: 0.6808 Pre:0.6808 Rec:0.6068 F1:0.6329 Kappa: 0.2674,poacc:0.9557
+2024-03-09 08:00:41 [INFO]	[EVAL] Class IoU: 
+[0.9553 0.1686]
+2024-03-09 08:00:41 [INFO]	[EVAL] Class Acc: 
+[0.9689 0.3926]
+2024-03-09 08:00:41 [INFO]	[EVAL] Class Pre: 
+[0.9689 0.3926]
+2024-03-09 08:00:41 [INFO]	[EVAL] Class Rec: 
+[0.9855 0.2281]
+2024-03-09 08:00:41 [INFO]	[EVAL] Class F1: 
+[0.9771 0.2886]
+2024-03-09 08:00:41 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 08:01:30 [INFO]	[TRAIN] epoch: 7, iter: 16050/20000, loss: 0.1008, lr: 0.000012, batch_cost: 0.9825, reader_cost: 0.00010, ips: 1.0178 samples/sec | ETA 01:04:40
+2024-03-09 08:02:20 [INFO]	[TRAIN] epoch: 7, iter: 16100/20000, loss: 0.0944, lr: 0.000012, batch_cost: 0.9895, reader_cost: 0.00009, ips: 1.0106 samples/sec | ETA 01:04:18
+2024-03-09 08:03:09 [INFO]	[TRAIN] epoch: 7, iter: 16150/20000, loss: 0.0860, lr: 0.000012, batch_cost: 0.9856, reader_cost: 0.00010, ips: 1.0146 samples/sec | ETA 01:03:14
+2024-03-09 08:03:59 [INFO]	[TRAIN] epoch: 7, iter: 16200/20000, loss: 0.0953, lr: 0.000011, batch_cost: 0.9982, reader_cost: 0.00010, ips: 1.0019 samples/sec | ETA 01:03:12
+2024-03-09 08:03:59 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 08:14:02 [INFO]	[EVAL] #Images: 670 mIoU: 0.5655 Acc: 0.6755 Pre:0.6755 Rec:0.6157 F1:0.6385 Kappa: 0.2782,poacc:0.9546
+2024-03-09 08:14:02 [INFO]	[EVAL] Class IoU: 
+[0.9541 0.1768]
+2024-03-09 08:14:02 [INFO]	[EVAL] Class Acc: 
+[0.9696 0.3815]
+2024-03-09 08:14:02 [INFO]	[EVAL] Class Pre: 
+[0.9696 0.3815]
+2024-03-09 08:14:02 [INFO]	[EVAL] Class Rec: 
+[0.9835 0.2479]
+2024-03-09 08:14:02 [INFO]	[EVAL] Class F1: 
+[0.9765 0.3005]
+2024-03-09 08:14:02 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 08:14:51 [INFO]	[TRAIN] epoch: 7, iter: 16250/20000, loss: 0.0957, lr: 0.000011, batch_cost: 0.9765, reader_cost: 0.00010, ips: 1.0240 samples/sec | ETA 01:01:02
+2024-03-09 08:15:40 [INFO]	[TRAIN] epoch: 7, iter: 16300/20000, loss: 0.0941, lr: 0.000011, batch_cost: 0.9800, reader_cost: 0.00010, ips: 1.0204 samples/sec | ETA 01:00:25
+2024-03-09 08:16:28 [INFO]	[TRAIN] epoch: 7, iter: 16350/20000, loss: 0.0886, lr: 0.000011, batch_cost: 0.9622, reader_cost: 0.00009, ips: 1.0393 samples/sec | ETA 00:58:31
+2024-03-09 08:17:18 [INFO]	[TRAIN] epoch: 7, iter: 16400/20000, loss: 0.0897, lr: 0.000011, batch_cost: 0.9959, reader_cost: 0.00009, ips: 1.0041 samples/sec | ETA 00:59:45
+2024-03-09 08:17:18 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 08:27:06 [INFO]	[EVAL] #Images: 670 mIoU: 0.5586 Acc: 0.6893 Pre:0.6893 Rec:0.5982 F1:0.6273 Kappa: 0.2570,poacc:0.9570
+2024-03-09 08:27:06 [INFO]	[EVAL] Class IoU: 
+[0.9567 0.1606]
+2024-03-09 08:27:06 [INFO]	[EVAL] Class Acc: 
+[0.9682 0.4105]
+2024-03-09 08:27:06 [INFO]	[EVAL] Class Pre: 
+[0.9682 0.4105]
+2024-03-09 08:27:06 [INFO]	[EVAL] Class Rec: 
+[0.9877 0.2088]
+2024-03-09 08:27:06 [INFO]	[EVAL] Class F1: 
+[0.9779 0.2768]
+2024-03-09 08:27:06 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 08:27:55 [INFO]	[TRAIN] epoch: 7, iter: 16450/20000, loss: 0.0923, lr: 0.000011, batch_cost: 0.9763, reader_cost: 0.00009, ips: 1.0243 samples/sec | ETA 00:57:45
+2024-03-09 08:28:45 [INFO]	[TRAIN] epoch: 7, iter: 16500/20000, loss: 0.0933, lr: 0.000011, batch_cost: 0.9959, reader_cost: 0.00009, ips: 1.0041 samples/sec | ETA 00:58:05
+2024-03-09 08:29:34 [INFO]	[TRAIN] epoch: 7, iter: 16550/20000, loss: 0.0952, lr: 0.000010, batch_cost: 0.9811, reader_cost: 0.00009, ips: 1.0192 samples/sec | ETA 00:56:24
+2024-03-09 08:30:23 [INFO]	[TRAIN] epoch: 7, iter: 16600/20000, loss: 0.0891, lr: 0.000010, batch_cost: 0.9863, reader_cost: 0.00009, ips: 1.0139 samples/sec | ETA 00:55:53
+2024-03-09 08:30:23 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 08:40:12 [INFO]	[EVAL] #Images: 670 mIoU: 0.5619 Acc: 0.6948 Pre:0.6948 Rec:0.6020 F1:0.6319 Kappa: 0.2661,poacc:0.9574
+2024-03-09 08:40:12 [INFO]	[EVAL] Class IoU: 
+[0.9571 0.1666]
+2024-03-09 08:40:12 [INFO]	[EVAL] Class Acc: 
+[0.9685 0.4211]
+2024-03-09 08:40:12 [INFO]	[EVAL] Class Pre: 
+[0.9685 0.4211]
+2024-03-09 08:40:12 [INFO]	[EVAL] Class Rec: 
+[0.9878 0.2162]
+2024-03-09 08:40:12 [INFO]	[EVAL] Class F1: 
+[0.9781 0.2857]
+2024-03-09 08:40:13 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 08:41:02 [INFO]	[TRAIN] epoch: 7, iter: 16650/20000, loss: 0.0945, lr: 0.000010, batch_cost: 0.9814, reader_cost: 0.00010, ips: 1.0190 samples/sec | ETA 00:54:47
+2024-03-09 08:41:51 [INFO]	[TRAIN] epoch: 7, iter: 16700/20000, loss: 0.0890, lr: 0.000010, batch_cost: 0.9782, reader_cost: 0.00009, ips: 1.0223 samples/sec | ETA 00:53:48
+2024-03-09 08:42:39 [INFO]	[TRAIN] epoch: 7, iter: 16750/20000, loss: 0.0818, lr: 0.000010, batch_cost: 0.9738, reader_cost: 0.00010, ips: 1.0269 samples/sec | ETA 00:52:44
+2024-03-09 08:43:28 [INFO]	[TRAIN] epoch: 7, iter: 16800/20000, loss: 0.0973, lr: 0.000010, batch_cost: 0.9684, reader_cost: 0.00009, ips: 1.0326 samples/sec | ETA 00:51:38
+2024-03-09 08:43:28 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 08:53:31 [INFO]	[EVAL] #Images: 670 mIoU: 0.5642 Acc: 0.6836 Pre:0.6836 Rec:0.6097 F1:0.6360 Kappa: 0.2735,poacc:0.9559
+2024-03-09 08:53:31 [INFO]	[EVAL] Class IoU: 
+[0.9555 0.1728]
+2024-03-09 08:53:31 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.398 ]
+2024-03-09 08:53:31 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.398 ]
+2024-03-09 08:53:31 [INFO]	[EVAL] Class Rec: 
+[0.9855 0.234 ]
+2024-03-09 08:53:31 [INFO]	[EVAL] Class F1: 
+[0.9772 0.2947]
+2024-03-09 08:53:31 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 08:54:21 [INFO]	[TRAIN] epoch: 7, iter: 16850/20000, loss: 0.0933, lr: 0.000009, batch_cost: 0.9916, reader_cost: 0.00010, ips: 1.0085 samples/sec | ETA 00:52:03
+2024-03-09 08:55:10 [INFO]	[TRAIN] epoch: 7, iter: 16900/20000, loss: 0.0950, lr: 0.000009, batch_cost: 0.9800, reader_cost: 0.00010, ips: 1.0204 samples/sec | ETA 00:50:38
+2024-03-09 08:55:59 [INFO]	[TRAIN] epoch: 7, iter: 16950/20000, loss: 0.0948, lr: 0.000009, batch_cost: 0.9868, reader_cost: 0.00010, ips: 1.0134 samples/sec | ETA 00:50:09
+2024-03-09 08:56:48 [INFO]	[TRAIN] epoch: 7, iter: 17000/20000, loss: 0.0922, lr: 0.000009, batch_cost: 0.9732, reader_cost: 0.00010, ips: 1.0276 samples/sec | ETA 00:48:39
+2024-03-09 08:56:48 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 09:06:41 [INFO]	[EVAL] #Images: 670 mIoU: 0.5634 Acc: 0.6730 Pre:0.6730 Rec:0.6128 F1:0.6355 Kappa: 0.2722,poacc:0.9544
+2024-03-09 09:06:41 [INFO]	[EVAL] Class IoU: 
+[0.954  0.1728]
+2024-03-09 09:06:41 [INFO]	[EVAL] Class Acc: 
+[0.9694 0.3766]
+2024-03-09 09:06:41 [INFO]	[EVAL] Class Pre: 
+[0.9694 0.3766]
+2024-03-09 09:06:41 [INFO]	[EVAL] Class Rec: 
+[0.9836 0.242 ]
+2024-03-09 09:06:41 [INFO]	[EVAL] Class F1: 
+[0.9764 0.2946]
+2024-03-09 09:06:41 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 09:07:30 [INFO]	[TRAIN] epoch: 7, iter: 17050/20000, loss: 0.0860, lr: 0.000009, batch_cost: 0.9720, reader_cost: 0.00010, ips: 1.0288 samples/sec | ETA 00:47:47
+2024-03-09 09:08:19 [INFO]	[TRAIN] epoch: 7, iter: 17100/20000, loss: 0.0966, lr: 0.000009, batch_cost: 0.9874, reader_cost: 0.00010, ips: 1.0128 samples/sec | ETA 00:47:43
+2024-03-09 09:09:08 [INFO]	[TRAIN] epoch: 7, iter: 17150/20000, loss: 0.0896, lr: 0.000009, batch_cost: 0.9770, reader_cost: 0.00010, ips: 1.0235 samples/sec | ETA 00:46:24
+2024-03-09 09:09:57 [INFO]	[TRAIN] epoch: 7, iter: 17200/20000, loss: 0.1007, lr: 0.000008, batch_cost: 0.9914, reader_cost: 0.00010, ips: 1.0086 samples/sec | ETA 00:46:15
+2024-03-09 09:09:57 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 09:19:48 [INFO]	[EVAL] #Images: 670 mIoU: 0.5648 Acc: 0.6702 Pre:0.6702 Rec:0.6172 F1:0.6380 Kappa: 0.2769,poacc:0.9537
+2024-03-09 09:19:48 [INFO]	[EVAL] Class IoU: 
+[0.9532 0.1764]
+2024-03-09 09:19:48 [INFO]	[EVAL] Class Acc: 
+[0.9697 0.3706]
+2024-03-09 09:19:48 [INFO]	[EVAL] Class Pre: 
+[0.9697 0.3706]
+2024-03-09 09:19:48 [INFO]	[EVAL] Class Rec: 
+[0.9825 0.2519]
+2024-03-09 09:19:48 [INFO]	[EVAL] Class F1: 
+[0.9761 0.2999]
+2024-03-09 09:19:48 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 09:20:35 [INFO]	[TRAIN] epoch: 7, iter: 17250/20000, loss: 0.0883, lr: 0.000008, batch_cost: 0.9450, reader_cost: 0.00009, ips: 1.0582 samples/sec | ETA 00:43:18
+2024-03-09 09:21:24 [INFO]	[TRAIN] epoch: 7, iter: 17300/20000, loss: 0.0922, lr: 0.000008, batch_cost: 0.9866, reader_cost: 0.00009, ips: 1.0135 samples/sec | ETA 00:44:23
+2024-03-09 09:22:12 [INFO]	[TRAIN] epoch: 7, iter: 17350/20000, loss: 0.0881, lr: 0.000008, batch_cost: 0.9547, reader_cost: 0.00010, ips: 1.0474 samples/sec | ETA 00:42:10
+2024-03-09 09:23:01 [INFO]	[TRAIN] epoch: 7, iter: 17400/20000, loss: 0.0940, lr: 0.000008, batch_cost: 0.9776, reader_cost: 0.00010, ips: 1.0229 samples/sec | ETA 00:42:21
+2024-03-09 09:23:01 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 09:32:57 [INFO]	[EVAL] #Images: 670 mIoU: 0.5644 Acc: 0.6725 Pre:0.6725 Rec:0.6151 F1:0.6372 Kappa: 0.2754,poacc:0.9542
+2024-03-09 09:32:57 [INFO]	[EVAL] Class IoU: 
+[0.9537 0.1751]
+2024-03-09 09:32:57 [INFO]	[EVAL] Class Acc: 
+[0.9696 0.3754]
+2024-03-09 09:32:57 [INFO]	[EVAL] Class Pre: 
+[0.9696 0.3754]
+2024-03-09 09:32:57 [INFO]	[EVAL] Class Rec: 
+[0.9832 0.2471]
+2024-03-09 09:32:57 [INFO]	[EVAL] Class F1: 
+[0.9763 0.298 ]
+2024-03-09 09:32:57 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 09:33:46 [INFO]	[TRAIN] epoch: 7, iter: 17450/20000, loss: 0.0915, lr: 0.000008, batch_cost: 0.9743, reader_cost: 0.00010, ips: 1.0263 samples/sec | ETA 00:41:24
+2024-03-09 09:34:35 [INFO]	[TRAIN] epoch: 7, iter: 17500/20000, loss: 0.1058, lr: 0.000008, batch_cost: 0.9796, reader_cost: 0.00009, ips: 1.0208 samples/sec | ETA 00:40:49
+2024-03-09 09:35:24 [INFO]	[TRAIN] epoch: 7, iter: 17550/20000, loss: 0.0996, lr: 0.000007, batch_cost: 0.9839, reader_cost: 0.00010, ips: 1.0164 samples/sec | ETA 00:40:10
+2024-03-09 09:36:14 [INFO]	[TRAIN] epoch: 7, iter: 17600/20000, loss: 0.1003, lr: 0.000007, batch_cost: 0.9970, reader_cost: 0.00010, ips: 1.0030 samples/sec | ETA 00:39:52
+2024-03-09 09:36:14 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 09:46:00 [INFO]	[EVAL] #Images: 670 mIoU: 0.5655 Acc: 0.6638 Pre:0.6638 Rec:0.6224 F1:0.6396 Kappa: 0.2798,poacc:0.9523
+2024-03-09 09:46:00 [INFO]	[EVAL] Class IoU: 
+[0.9518 0.1792]
+2024-03-09 09:46:00 [INFO]	[EVAL] Class Acc: 
+[0.9702 0.3573]
+2024-03-09 09:46:00 [INFO]	[EVAL] Class Pre: 
+[0.9702 0.3573]
+2024-03-09 09:46:00 [INFO]	[EVAL] Class Rec: 
+[0.9805 0.2643]
+2024-03-09 09:46:00 [INFO]	[EVAL] Class F1: 
+[0.9753 0.3039]
+2024-03-09 09:46:00 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 09:46:48 [INFO]	[TRAIN] epoch: 7, iter: 17650/20000, loss: 0.0890, lr: 0.000007, batch_cost: 0.9700, reader_cost: 0.00010, ips: 1.0309 samples/sec | ETA 00:37:59
+2024-03-09 09:47:38 [INFO]	[TRAIN] epoch: 8, iter: 17700/20000, loss: 0.0925, lr: 0.000007, batch_cost: 0.9891, reader_cost: 0.00534, ips: 1.0110 samples/sec | ETA 00:37:54
+2024-03-09 09:48:26 [INFO]	[TRAIN] epoch: 8, iter: 17750/20000, loss: 0.0957, lr: 0.000007, batch_cost: 0.9560, reader_cost: 0.00009, ips: 1.0460 samples/sec | ETA 00:35:50
+2024-03-09 09:49:15 [INFO]	[TRAIN] epoch: 8, iter: 17800/20000, loss: 0.0861, lr: 0.000007, batch_cost: 0.9778, reader_cost: 0.00009, ips: 1.0227 samples/sec | ETA 00:35:51
+2024-03-09 09:49:15 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 09:59:03 [INFO]	[EVAL] #Images: 670 mIoU: 0.5631 Acc: 0.6794 Pre:0.6794 Rec:0.6094 F1:0.6346 Kappa: 0.2708,poacc:0.9554
+2024-03-09 09:59:03 [INFO]	[EVAL] Class IoU: 
+[0.955  0.1712]
+2024-03-09 09:59:03 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.3898]
+2024-03-09 09:59:03 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.3898]
+2024-03-09 09:59:03 [INFO]	[EVAL] Class Rec: 
+[0.985  0.2338]
+2024-03-09 09:59:03 [INFO]	[EVAL] Class F1: 
+[0.977  0.2923]
+2024-03-09 09:59:03 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 09:59:51 [INFO]	[TRAIN] epoch: 8, iter: 17850/20000, loss: 0.0879, lr: 0.000006, batch_cost: 0.9706, reader_cost: 0.00010, ips: 1.0303 samples/sec | ETA 00:34:46
+2024-03-09 10:00:41 [INFO]	[TRAIN] epoch: 8, iter: 17900/20000, loss: 0.0957, lr: 0.000006, batch_cost: 0.9937, reader_cost: 0.00009, ips: 1.0063 samples/sec | ETA 00:34:46
+2024-03-09 10:01:31 [INFO]	[TRAIN] epoch: 8, iter: 17950/20000, loss: 0.0905, lr: 0.000006, batch_cost: 0.9879, reader_cost: 0.00009, ips: 1.0123 samples/sec | ETA 00:33:45
+2024-03-09 10:02:19 [INFO]	[TRAIN] epoch: 8, iter: 18000/20000, loss: 0.0982, lr: 0.000006, batch_cost: 0.9775, reader_cost: 0.00010, ips: 1.0230 samples/sec | ETA 00:32:35
+2024-03-09 10:02:19 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 10:12:09 [INFO]	[EVAL] #Images: 670 mIoU: 0.5626 Acc: 0.6882 Pre:0.6882 Rec:0.6052 F1:0.6333 Kappa: 0.2685,poacc:0.9566
+2024-03-09 10:12:09 [INFO]	[EVAL] Class IoU: 
+[0.9563 0.1689]
+2024-03-09 10:12:09 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4077]
+2024-03-09 10:12:09 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4077]
+2024-03-09 10:12:09 [INFO]	[EVAL] Class Rec: 
+[0.9867 0.2238]
+2024-03-09 10:12:09 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2889]
+2024-03-09 10:12:09 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 10:12:58 [INFO]	[TRAIN] epoch: 8, iter: 18050/20000, loss: 0.0973, lr: 0.000006, batch_cost: 0.9664, reader_cost: 0.00009, ips: 1.0347 samples/sec | ETA 00:31:24
+2024-03-09 10:13:47 [INFO]	[TRAIN] epoch: 8, iter: 18100/20000, loss: 0.0899, lr: 0.000006, batch_cost: 0.9842, reader_cost: 0.00010, ips: 1.0160 samples/sec | ETA 00:31:10
+2024-03-09 10:14:35 [INFO]	[TRAIN] epoch: 8, iter: 18150/20000, loss: 0.0899, lr: 0.000006, batch_cost: 0.9704, reader_cost: 0.00010, ips: 1.0305 samples/sec | ETA 00:29:55
+2024-03-09 10:15:23 [INFO]	[TRAIN] epoch: 8, iter: 18200/20000, loss: 0.0922, lr: 0.000005, batch_cost: 0.9454, reader_cost: 0.00009, ips: 1.0577 samples/sec | ETA 00:28:21
+2024-03-09 10:15:23 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 10:25:16 [INFO]	[EVAL] #Images: 670 mIoU: 0.5653 Acc: 0.6717 Pre:0.6717 Rec:0.6174 F1:0.6386 Kappa: 0.2782,poacc:0.9539
+2024-03-09 10:25:16 [INFO]	[EVAL] Class IoU: 
+[0.9535 0.1772]
+2024-03-09 10:25:16 [INFO]	[EVAL] Class Acc: 
+[0.9698 0.3737]
+2024-03-09 10:25:16 [INFO]	[EVAL] Class Pre: 
+[0.9698 0.3737]
+2024-03-09 10:25:16 [INFO]	[EVAL] Class Rec: 
+[0.9827 0.2521]
+2024-03-09 10:25:16 [INFO]	[EVAL] Class F1: 
+[0.9762 0.3011]
+2024-03-09 10:25:16 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 10:26:05 [INFO]	[TRAIN] epoch: 8, iter: 18250/20000, loss: 0.0855, lr: 0.000005, batch_cost: 0.9752, reader_cost: 0.00010, ips: 1.0254 samples/sec | ETA 00:28:26
+2024-03-09 10:26:53 [INFO]	[TRAIN] epoch: 8, iter: 18300/20000, loss: 0.0934, lr: 0.000005, batch_cost: 0.9634, reader_cost: 0.00008, ips: 1.0380 samples/sec | ETA 00:27:17
+2024-03-09 10:27:41 [INFO]	[TRAIN] epoch: 8, iter: 18350/20000, loss: 0.0937, lr: 0.000005, batch_cost: 0.9641, reader_cost: 0.00009, ips: 1.0373 samples/sec | ETA 00:26:30
+2024-03-09 10:28:32 [INFO]	[TRAIN] epoch: 8, iter: 18400/20000, loss: 0.0791, lr: 0.000005, batch_cost: 1.0121, reader_cost: 0.00010, ips: 0.9880 samples/sec | ETA 00:26:59
+2024-03-09 10:28:32 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 10:38:20 [INFO]	[EVAL] #Images: 670 mIoU: 0.5629 Acc: 0.6899 Pre:0.6899 Rec:0.6052 F1:0.6337 Kappa: 0.2694,poacc:0.9568
+2024-03-09 10:38:20 [INFO]	[EVAL] Class IoU: 
+[0.9564 0.1693]
+2024-03-09 10:38:20 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4111]
+2024-03-09 10:38:20 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4111]
+2024-03-09 10:38:20 [INFO]	[EVAL] Class Rec: 
+[0.9869 0.2236]
+2024-03-09 10:38:20 [INFO]	[EVAL] Class F1: 
+[0.9777 0.2896]
+2024-03-09 10:38:21 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 10:39:09 [INFO]	[TRAIN] epoch: 8, iter: 18450/20000, loss: 0.0821, lr: 0.000005, batch_cost: 0.9627, reader_cost: 0.00010, ips: 1.0387 samples/sec | ETA 00:24:52
+2024-03-09 10:39:58 [INFO]	[TRAIN] epoch: 8, iter: 18500/20000, loss: 0.0884, lr: 0.000005, batch_cost: 0.9781, reader_cost: 0.00009, ips: 1.0224 samples/sec | ETA 00:24:27
+2024-03-09 10:40:46 [INFO]	[TRAIN] epoch: 8, iter: 18550/20000, loss: 0.0932, lr: 0.000004, batch_cost: 0.9737, reader_cost: 0.00009, ips: 1.0270 samples/sec | ETA 00:23:31
+2024-03-09 10:41:35 [INFO]	[TRAIN] epoch: 8, iter: 18600/20000, loss: 0.0951, lr: 0.000004, batch_cost: 0.9765, reader_cost: 0.00009, ips: 1.0240 samples/sec | ETA 00:22:47
+2024-03-09 10:41:35 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 10:51:22 [INFO]	[EVAL] #Images: 670 mIoU: 0.5645 Acc: 0.6755 Pre:0.6755 Rec:0.6138 F1:0.6371 Kappa: 0.2753,poacc:0.9547
+2024-03-09 10:51:22 [INFO]	[EVAL] Class IoU: 
+[0.9542 0.1748]
+2024-03-09 10:51:22 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3814]
+2024-03-09 10:51:22 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3814]
+2024-03-09 10:51:22 [INFO]	[EVAL] Class Rec: 
+[0.9838 0.2439]
+2024-03-09 10:51:22 [INFO]	[EVAL] Class F1: 
+[0.9766 0.2975]
+2024-03-09 10:51:22 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 10:52:10 [INFO]	[TRAIN] epoch: 8, iter: 18650/20000, loss: 0.0930, lr: 0.000004, batch_cost: 0.9551, reader_cost: 0.00010, ips: 1.0470 samples/sec | ETA 00:21:29
+2024-03-09 10:52:59 [INFO]	[TRAIN] epoch: 8, iter: 18700/20000, loss: 0.0855, lr: 0.000004, batch_cost: 0.9771, reader_cost: 0.00010, ips: 1.0234 samples/sec | ETA 00:21:10
+2024-03-09 10:53:47 [INFO]	[TRAIN] epoch: 8, iter: 18750/20000, loss: 0.0988, lr: 0.000004, batch_cost: 0.9665, reader_cost: 0.00010, ips: 1.0347 samples/sec | ETA 00:20:08
+2024-03-09 10:54:35 [INFO]	[TRAIN] epoch: 8, iter: 18800/20000, loss: 0.0957, lr: 0.000004, batch_cost: 0.9579, reader_cost: 0.00011, ips: 1.0440 samples/sec | ETA 00:19:09
+2024-03-09 10:54:35 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 11:04:32 [INFO]	[EVAL] #Images: 670 mIoU: 0.5645 Acc: 0.6750 Pre:0.6750 Rec:0.6141 F1:0.6371 Kappa: 0.2754,poacc:0.9546
+2024-03-09 11:04:32 [INFO]	[EVAL] Class IoU: 
+[0.9541 0.1749]
+2024-03-09 11:04:32 [INFO]	[EVAL] Class Acc: 
+[0.9695 0.3805]
+2024-03-09 11:04:32 [INFO]	[EVAL] Class Pre: 
+[0.9695 0.3805]
+2024-03-09 11:04:32 [INFO]	[EVAL] Class Rec: 
+[0.9837 0.2445]
+2024-03-09 11:04:32 [INFO]	[EVAL] Class F1: 
+[0.9765 0.2977]
+2024-03-09 11:04:32 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 11:05:21 [INFO]	[TRAIN] epoch: 8, iter: 18850/20000, loss: 0.0951, lr: 0.000003, batch_cost: 0.9789, reader_cost: 0.00010, ips: 1.0216 samples/sec | ETA 00:18:45
+2024-03-09 11:06:09 [INFO]	[TRAIN] epoch: 8, iter: 18900/20000, loss: 0.0904, lr: 0.000003, batch_cost: 0.9717, reader_cost: 0.00010, ips: 1.0292 samples/sec | ETA 00:17:48
+2024-03-09 11:06:58 [INFO]	[TRAIN] epoch: 8, iter: 18950/20000, loss: 0.0936, lr: 0.000003, batch_cost: 0.9646, reader_cost: 0.00009, ips: 1.0367 samples/sec | ETA 00:16:52
+2024-03-09 11:07:47 [INFO]	[TRAIN] epoch: 8, iter: 19000/20000, loss: 0.0971, lr: 0.000003, batch_cost: 0.9866, reader_cost: 0.00009, ips: 1.0136 samples/sec | ETA 00:16:26
+2024-03-09 11:07:47 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 11:17:35 [INFO]	[EVAL] #Images: 670 mIoU: 0.5664 Acc: 0.6651 Pre:0.6651 Rec:0.6235 F1:0.6408 Kappa: 0.2822,poacc:0.9525
+2024-03-09 11:17:35 [INFO]	[EVAL] Class IoU: 
+[0.952  0.1808]
+2024-03-09 11:17:35 [INFO]	[EVAL] Class Acc: 
+[0.9703 0.3599]
+2024-03-09 11:17:35 [INFO]	[EVAL] Class Pre: 
+[0.9703 0.3599]
+2024-03-09 11:17:35 [INFO]	[EVAL] Class Rec: 
+[0.9806 0.2665]
+2024-03-09 11:17:35 [INFO]	[EVAL] Class F1: 
+[0.9754 0.3062]
+2024-03-09 11:17:35 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 11:18:23 [INFO]	[TRAIN] epoch: 8, iter: 19050/20000, loss: 0.0961, lr: 0.000003, batch_cost: 0.9597, reader_cost: 0.00010, ips: 1.0420 samples/sec | ETA 00:15:11
+2024-03-09 11:19:11 [INFO]	[TRAIN] epoch: 8, iter: 19100/20000, loss: 0.0925, lr: 0.000003, batch_cost: 0.9587, reader_cost: 0.00009, ips: 1.0431 samples/sec | ETA 00:14:22
+2024-03-09 11:19:58 [INFO]	[TRAIN] epoch: 8, iter: 19150/20000, loss: 0.0858, lr: 0.000003, batch_cost: 0.9571, reader_cost: 0.00009, ips: 1.0448 samples/sec | ETA 00:13:33
+2024-03-09 11:20:47 [INFO]	[TRAIN] epoch: 8, iter: 19200/20000, loss: 0.0972, lr: 0.000002, batch_cost: 0.9706, reader_cost: 0.00010, ips: 1.0302 samples/sec | ETA 00:12:56
+2024-03-09 11:20:47 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 11:30:34 [INFO]	[EVAL] #Images: 670 mIoU: 0.5625 Acc: 0.6875 Pre:0.6875 Rec:0.6053 F1:0.6332 Kappa: 0.2683,poacc:0.9566
+2024-03-09 11:30:34 [INFO]	[EVAL] Class IoU: 
+[0.9562 0.1687]
+2024-03-09 11:30:34 [INFO]	[EVAL] Class Acc: 
+[0.9688 0.4062]
+2024-03-09 11:30:34 [INFO]	[EVAL] Class Pre: 
+[0.9688 0.4062]
+2024-03-09 11:30:34 [INFO]	[EVAL] Class Rec: 
+[0.9866 0.224 ]
+2024-03-09 11:30:34 [INFO]	[EVAL] Class F1: 
+[0.9776 0.2888]
+2024-03-09 11:30:34 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 11:31:23 [INFO]	[TRAIN] epoch: 8, iter: 19250/20000, loss: 0.1009, lr: 0.000002, batch_cost: 0.9709, reader_cost: 0.00010, ips: 1.0300 samples/sec | ETA 00:12:08
+2024-03-09 11:32:10 [INFO]	[TRAIN] epoch: 8, iter: 19300/20000, loss: 0.0918, lr: 0.000002, batch_cost: 0.9475, reader_cost: 0.00011, ips: 1.0555 samples/sec | ETA 00:11:03
+2024-03-09 11:32:58 [INFO]	[TRAIN] epoch: 8, iter: 19350/20000, loss: 0.0930, lr: 0.000002, batch_cost: 0.9654, reader_cost: 0.00009, ips: 1.0359 samples/sec | ETA 00:10:27
+2024-03-09 11:33:46 [INFO]	[TRAIN] epoch: 8, iter: 19400/20000, loss: 0.1033, lr: 0.000002, batch_cost: 0.9524, reader_cost: 0.00010, ips: 1.0500 samples/sec | ETA 00:09:31
+2024-03-09 11:33:46 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 11:43:33 [INFO]	[EVAL] #Images: 670 mIoU: 0.5630 Acc: 0.6789 Pre:0.6789 Rec:0.6094 F1:0.6345 Kappa: 0.2705,poacc:0.9554
+2024-03-09 11:43:33 [INFO]	[EVAL] Class IoU: 
+[0.9549 0.171 ]
+2024-03-09 11:43:33 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.3887]
+2024-03-09 11:43:33 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.3887]
+2024-03-09 11:43:33 [INFO]	[EVAL] Class Rec: 
+[0.9849 0.2339]
+2024-03-09 11:43:33 [INFO]	[EVAL] Class F1: 
+[0.977 0.292]
+2024-03-09 11:43:33 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 11:44:22 [INFO]	[TRAIN] epoch: 8, iter: 19450/20000, loss: 0.0912, lr: 0.000002, batch_cost: 0.9664, reader_cost: 0.00011, ips: 1.0348 samples/sec | ETA 00:08:51
+2024-03-09 11:45:10 [INFO]	[TRAIN] epoch: 8, iter: 19500/20000, loss: 0.0880, lr: 0.000002, batch_cost: 0.9746, reader_cost: 0.00009, ips: 1.0261 samples/sec | ETA 00:08:07
+2024-03-09 11:46:00 [INFO]	[TRAIN] epoch: 8, iter: 19550/20000, loss: 0.0996, lr: 0.000001, batch_cost: 0.9906, reader_cost: 0.00009, ips: 1.0095 samples/sec | ETA 00:07:25
+2024-03-09 11:46:49 [INFO]	[TRAIN] epoch: 8, iter: 19600/20000, loss: 0.0954, lr: 0.000001, batch_cost: 0.9769, reader_cost: 0.00010, ips: 1.0237 samples/sec | ETA 00:06:30
+2024-03-09 11:46:49 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 11:56:40 [INFO]	[EVAL] #Images: 670 mIoU: 0.5610 Acc: 0.6989 Pre:0.6989 Rec:0.5994 F1:0.6303 Kappa: 0.2633,poacc:0.9579
+2024-03-09 11:56:40 [INFO]	[EVAL] Class IoU: 
+[0.9576 0.1644]
+2024-03-09 11:56:40 [INFO]	[EVAL] Class Acc: 
+[0.9683 0.4295]
+2024-03-09 11:56:40 [INFO]	[EVAL] Class Pre: 
+[0.9683 0.4295]
+2024-03-09 11:56:40 [INFO]	[EVAL] Class Rec: 
+[0.9886 0.2103]
+2024-03-09 11:56:40 [INFO]	[EVAL] Class F1: 
+[0.9783 0.2824]
+2024-03-09 11:56:40 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 11:57:28 [INFO]	[TRAIN] epoch: 8, iter: 19650/20000, loss: 0.1012, lr: 0.000001, batch_cost: 0.9693, reader_cost: 0.00011, ips: 1.0316 samples/sec | ETA 00:05:39
+2024-03-09 11:58:17 [INFO]	[TRAIN] epoch: 8, iter: 19700/20000, loss: 0.0922, lr: 0.000001, batch_cost: 0.9761, reader_cost: 0.00010, ips: 1.0245 samples/sec | ETA 00:04:52
+2024-03-09 11:59:07 [INFO]	[TRAIN] epoch: 8, iter: 19750/20000, loss: 0.0891, lr: 0.000001, batch_cost: 0.9929, reader_cost: 0.00010, ips: 1.0071 samples/sec | ETA 00:04:08
+2024-03-09 11:59:56 [INFO]	[TRAIN] epoch: 8, iter: 19800/20000, loss: 0.0914, lr: 0.000001, batch_cost: 0.9836, reader_cost: 0.00009, ips: 1.0167 samples/sec | ETA 00:03:16
+2024-03-09 11:59:56 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 12:09:48 [INFO]	[EVAL] #Images: 670 mIoU: 0.5651 Acc: 0.6604 Pre:0.6604 Rec:0.6239 F1:0.6394 Kappa: 0.2793,poacc:0.9516
+2024-03-09 12:09:48 [INFO]	[EVAL] Class IoU: 
+[0.9511 0.1791]
+2024-03-09 12:09:48 [INFO]	[EVAL] Class Acc: 
+[0.9703 0.3505]
+2024-03-09 12:09:48 [INFO]	[EVAL] Class Pre: 
+[0.9703 0.3505]
+2024-03-09 12:09:48 [INFO]	[EVAL] Class Rec: 
+[0.9796 0.2682]
+2024-03-09 12:09:48 [INFO]	[EVAL] Class F1: 
+[0.9749 0.3039]
+2024-03-09 12:09:48 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
+2024-03-09 12:10:37 [INFO]	[TRAIN] epoch: 8, iter: 19850/20000, loss: 0.0943, lr: 0.000000, batch_cost: 0.9776, reader_cost: 0.00009, ips: 1.0229 samples/sec | ETA 00:02:26
+2024-03-09 12:11:26 [INFO]	[TRAIN] epoch: 8, iter: 19900/20000, loss: 0.0976, lr: 0.000000, batch_cost: 0.9765, reader_cost: 0.00010, ips: 1.0240 samples/sec | ETA 00:01:37
+2024-03-09 12:12:15 [INFO]	[TRAIN] epoch: 8, iter: 19950/20000, loss: 0.0964, lr: 0.000000, batch_cost: 0.9690, reader_cost: 0.00010, ips: 1.0320 samples/sec | ETA 00:00:48
+2024-03-09 12:13:04 [INFO]	[TRAIN] epoch: 8, iter: 20000/20000, loss: 0.0914, lr: 0.000000, batch_cost: 0.9811, reader_cost: 0.00009, ips: 1.0193 samples/sec | ETA 00:00:00
+2024-03-09 12:13:04 [INFO]	Start evaluating (total_samples: 670, total_iters: 670)...
+2024-03-09 12:22:50 [INFO]	[EVAL] #Images: 670 mIoU: 0.5638 Acc: 0.6820 Pre:0.6820 Rec:0.6097 F1:0.6355 Kappa: 0.2726,poacc:0.9557
+2024-03-09 12:22:50 [INFO]	[EVAL] Class IoU: 
+[0.9553 0.1723]
+2024-03-09 12:22:50 [INFO]	[EVAL] Class Acc: 
+[0.9691 0.395 ]
+2024-03-09 12:22:50 [INFO]	[EVAL] Class Pre: 
+[0.9691 0.395 ]
+2024-03-09 12:22:50 [INFO]	[EVAL] Class Rec: 
+[0.9853 0.2341]
+2024-03-09 12:22:50 [INFO]	[EVAL] Class F1: 
+[0.9771 0.2939]
+2024-03-09 12:22:50 [INFO]	[EVAL] The model with the best validation mIoU (0.5681) and best F1 (0.3109) was saved at iter 4400.
