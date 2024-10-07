@@ -1,4 +1,4 @@
-This is the source code for the paper "FMLD: Vertical Federated Learning for Multi-Modal Landslide Detection".
+This repository provides source codes and datasets for the paper "FMLD: Vertical Federated Learning for Multi-Modal Landslide Detection".
 
 # FMLD User Guide
 
