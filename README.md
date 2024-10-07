@@ -1,4 +1,6 @@
-# [Fed_MMLD] User Guide
+This is the source code for the paper "FMLD: Vertical Federated Learning for Multi-Modal Landslide Detection".
+
+# FMLD User Guide
 
 ## System Requirements
 
@@ -11,7 +13,7 @@
 1. Clone the repository:
 
    ```bash
-   cd Fed_MMLD
+   cd FMLD
    ```
 
 2. Create and activate a virtual environment.
@@ -22,7 +24,7 @@
 
 ## Dataset Preparation
 
-Download the datasets  and organize the files as follows:
+Download the datasets and organize the files as follows:
 
 ```kotlin
 // Datasets are stored in the dataset directory
@@ -45,6 +47,8 @@ dataset/
   │   ├── train.txt            // training set file list
   │   └── test.txt             // test set file list
 ```
+
+A sample dataset is available in the directory /FMLD/dataset.
 
 ## Model preparation
 
